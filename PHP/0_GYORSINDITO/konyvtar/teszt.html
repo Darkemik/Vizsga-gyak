@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Végpont-tesztelő</title>
+    <style>
+        body { font-family: Segoe UI, Arial, sans-serif; max-width: 760px; margin: 30px auto; padding: 0 16px; }
+        label { display: block; margin-top: 12px; font-weight: 600; }
+        input, select, textarea { width: 100%; padding: 8px; font: inherit; box-sizing: border-box; }
+        textarea { height: 110px; font-family: Consolas, monospace; }
+        button { margin-top: 14px; padding: 10px 22px; font: inherit; cursor: pointer; }
+        pre { background: #111827; color: #e5e7eb; padding: 14px; border-radius: 6px; white-space: pre-wrap; }
+        .kod { font-size: 1.2rem; font-weight: 700; margin-top: 16px; }
+    </style>
+</head>
+<body>
+    <!-- =================================================================
+         VÉGPONT-TESZTELŐ: GET / POST / PATCH / PUT / DELETE kérések küldése.
+         FONTOS: ugyanabba a mappába tedd, mint a PHP fájlokat (htdocs alatt),
+         és így nyisd meg: http://localhost/<mappa>/teszt.html
+         (dupla kattintással megnyitva NEM működik!)
+         ================================================================= -->
+    <h1>Végpont-tesztelő</h1>
+
+    <label for="metodus">Metódus</label>
+    <select id="metodus">
+        <option>GET</option><option>POST</option><option>PATCH</option><option>PUT</option><option>DELETE</option>
+    </select>
+
+    <label for="url">Cím (ehhez a mappához képest)</label>
+    <input id="url" value="konyvek.php">
+
+    <label for="torzs">Törzs (JSON, csak POST / PATCH / PUT esetén)</label>
+    <textarea id="torzs">{"cim": "Teszt könyv", "szerzo_id": 1, "ev": 2024, "ar": 1990, "keszlet": 3}</textarea>
+
+    <button id="kuldes">Küldés</button>
+
+    <div class="kod" id="kod"></div>
+    <pre id="valasz">(itt jelenik meg a válasz)</pre>
+
+    <script>
+        document.getElementById("kuldes").addEventListener("click", async function () {
+            const metodus = document.getElementById("metodus").value;
+            const beallitas = { method: metodus, headers: { "Content-Type": "application/json" } };
+            if (metodus !== "GET" && metodus !== "DELETE") {
+                beallitas.body = document.getElementById("torzs").value;
+            }
+            try {
+                const v = await fetch(document.getElementById("url").value, beallitas);
+                const szoveg = await v.text();
+                document.getElementById("kod").textContent = "Státuszkód: " + v.status + "   |   " + (v.headers.get("Content-Type") || "");
+                document.getElementById("valasz").textContent = szoveg;
+            } catch (hiba) {
+                document.getElementById("kod").textContent = "Hiba";
+                document.getElementById("valasz").textContent = String(hiba);
+            }
+        });
+    </script>
+</body>
+</html>

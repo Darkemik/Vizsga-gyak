@@ -1,6 +1,7 @@
 # WEB – Reszponzív weboldal + Frontend programozás (HTML, CSS, JavaScript)
 
-> **Először:** ha a web még idegen, olvasd el a [0_ALAPOK_KEZDOKNEK.md](0_ALAPOK_KEZDOKNEK.md)-t (5 perc).
+> ⭐ **Ha a nulláról indulsz, KEZDD ITT: [00_KEZDD_ITT.md](00_KEZDD_ITT.md)**: hogyan szedd szét a mintaképet (melyik rész a navigáció, a hero, a kártya), a web-szótár, és az első oldalad 10 perc alatt.
+> Utána: [0_ALAPOK_KEZDOKNEK.md](0_ALAPOK_KEZDOKNEK.md) (HTML / CSS / JS szerepe, 5 perc).
 
 ## Mennyit ér, és hol a legolcsóbb pont?
 
@@ -56,7 +57,8 @@ A mintafeladatban: **Weboldal 10 pont + Frontend 15 pont = 25 pont.** Részponto
 
 | Mappa | Mi van benne | Mikor nyisd meg |
 |---|---|---|
-| [0_ALAPOK_KEZDOKNEK.md](0_ALAPOK_KEZDOKNEK.md) | HTML / CSS / JS szerepe, class és id, @media, kipróbálás | **először** |
+| [00_KEZDD_ITT.md](00_KEZDD_ITT.md) | **a nulláról**: mintakép szétszedése (navigáció, hero, kártyák), web-szótár, első oldal | **legelőször** |
+| [0_ALAPOK_KEZDOKNEK.md](0_ALAPOK_KEZDOKNEK.md) | HTML / CSS / JS szerepe, class és id, @media, kipróbálás | utána |
 | [0_GYORSINDITO](0_GYORSINDITO/) | egy kész oldal minden elemmel, blokkok [A]–[H] | vizsgán, ebből másolsz |
 | [1_TECHNIKAK](1_TECHNIKAK/) | 10 fájl, mindegyik egy dolog | ha egy konkrét dolog nem jut eszedbe |
 | [2_GYAKORLO_FELADATOK/01_Galeria](2_GYAKORLO_FELADATOK/01_Galeria/) | **a kapott minta teljes megoldása**, lépésről lépésre, képekkel | gyakorláshoz |

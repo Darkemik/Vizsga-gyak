@@ -1,6 +1,7 @@
 # GUI – Windows Forms (C#)
 
-> **Először:** ha a GUI még idegen, olvasd el a [0_ALAPOK_KEZDOKNEK.md](0_ALAPOK_KEZDOKNEK.md)-t (5 perc).
+> ⭐ **Ha a nulláról indulsz, KEZDD ITT: [00_KEZDD_ITT.md](00_KEZDD_ITT.md)**: hogyan szedd szét a mintaképet (melyik doboz melyik vezérlő), a feladatszöveg szótára, és az első ablakod 10 perc alatt.
+> Utána: [0_ALAPOK_KEZDOKNEK.md](0_ALAPOK_KEZDOKNEK.md) (az események, 5 perc).
 
 ## A vizsga GUI-része lépésről lépésre
 
@@ -54,7 +55,8 @@ A tanárotok 8 mintafeladata (Auto, Paralimpia, Várak, Pizza, Menhely, Laptops,
 
 | Mappa | Mi van benne | Mikor nyisd meg |
 |---|---|---|
-| [0_ALAPOK_KEZDOKNEK.md](0_ALAPOK_KEZDOKNEK.md) | Designer vs. kód, (Name), Text, események | **először** |
+| [00_KEZDD_ITT.md](00_KEZDD_ITT.md) | **a nulláról**: mintakép szétszedése, vezérlő-felismerő képekkel, szótár, első ablak | **legelőször** |
+| [0_ALAPOK_KEZDOKNEK.md](0_ALAPOK_KEZDOKNEK.md) | Designer vs. kód, (Name), Text, események | utána |
 | [0_GYORSINDITO](0_GYORSINDITO/) | Kész Form, minden gyakori vezérlő bekötve, blokkok [A]–[K] | vizsgán, ebből másolsz |
 | [1_TECHNIKAK](1_TECHNIKAK/) | 15 fájl, mindegyik egy dolog: Designer-lépés + kód + gyakori hiba | ha egy konkrét dolog nem jut eszedbe |
 | [2_GYAKORLO_FELADATOK](2_GYAKORLO_FELADATOK/) | teljes feladatok `LEPESROL_LEPESRE.md`-vel | gyakorláshoz |

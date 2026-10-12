@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babszem webshop | Kávé otthonra</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="shell header-inner">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">B</span>
+                <span class="brand-name">babszem webshop</span>
+            </a>
+            <span class="header-note">FRISSEN PÖRKÖLVE</span>
+        </div>
+    </header>
+
+    <main class="shell catalog">
+        <section class="catalog-intro">
+            <div>
+                <p class="eyebrow">A BABSZEM KÍNÁLATA</p>
+                <h1>Jó kávé.<br><span>Otthonra is.</span></h1>
+            </div>
+            <p class="intro-copy">Szemes és őrölt kávék, kapszulák és minden, ami a tökéletes csészéhez kell.</p>
+        </section>
+
+        <section class="filter-panel" aria-label="Termékek szűrése">
+            <label class="search-label" for="product-search">Keresés a termékek között</label>
+            <input id="product-search" class="search-input" type="search" placeholder="Például: etióp" autocomplete="off">
+            <div class="category-heading">
+                <h2>Kategóriák</h2>
+                <span>Válassz egyet</span>
+            </div>
+            <div id="category-filters" class="category-filters"></div>
+        </section>
+
+        <section class="catalog-results">
+            <div class="results-heading">
+                <h2>Termékek</h2>
+                <p id="result-count">Betöltés...</p>
+            </div>
+            <div id="products" class="products">
+                <p class="empty-state">Termékek betöltése...</p>
+            </div>
+        </section>
+
+        <section class="admin-panel">
+            <h2>Új termék felvétele</h2>
+            <form id="new-product-form" class="admin-form">
+                <label>Név<input id="new-name" type="text"></label>
+                <label>Leírás<input id="new-description" type="text"></label>
+                <label>Ár (Ft)<input id="new-price" type="number"></label>
+                <label>Készlet (db)<input id="new-stock" type="number" value="0"></label>
+                <fieldset>
+                    <legend>Kategóriák</legend>
+                    <div id="new-categories" class="checkbox-list"></div>
+                </fieldset>
+                <button type="submit" class="primary-button">Termék mentése</button>
+            </form>
+            <p id="message" class="message" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="shell footer-inner">
+            <span>babszem webshop</span>
+            <span>Minden csésze számít.</span>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>

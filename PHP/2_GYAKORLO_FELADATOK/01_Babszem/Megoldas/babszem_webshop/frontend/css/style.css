@@ -1,0 +1,112 @@
+:root {
+	--ink: #2b1d16;
+	--muted: #7a6a5f;
+	--paper: #f7f1ea;
+	--surface: #ffffff;
+	--line: #e6dad0;
+	--brown: #6f4428;
+	--brown-dark: #2b1d16;
+	--caramel: #c08552;
+	--coral: #c4553b;
+	--shadow: 0 14px 38px rgba(43, 29, 22, 0.08);
+}
+
+* { box-sizing: border-box; }
+
+body {
+	min-width: 320px;
+	margin: 0;
+	background: var(--paper);
+	color: var(--ink);
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+
+button, input { font: inherit; }
+
+.shell { width: min(1120px, calc(100% - 48px)); margin-inline: auto; }
+
+.site-header { background: var(--brown-dark); color: #fff; }
+.header-inner, .brand, .footer-inner { display: flex; align-items: center; }
+.header-inner { min-height: 72px; justify-content: space-between; }
+.brand { gap: 11px; color: inherit; text-decoration: none; }
+.brand-mark {
+	display: grid; width: 34px; aspect-ratio: 1; place-items: center;
+	background: var(--caramel); color: var(--brown-dark);
+	font-family: Georgia, serif; font-size: 21px; font-weight: 700;
+}
+.brand-name { font-size: 17px; font-weight: 700; }
+.header-note, .eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 1.4px; }
+.header-note { color: #d9c6b6; }
+
+.catalog { padding-block: 56px 72px; }
+.catalog-intro { display: flex; align-items: end; justify-content: space-between; gap: 24px; padding-bottom: 34px; }
+.eyebrow { margin: 0 0 15px; color: var(--brown); }
+.catalog-intro h1 { margin: 0; font-family: Georgia, serif; font-size: clamp(38px, 5vw, 56px); font-weight: 500; line-height: 1.05; }
+.catalog-intro h1 span { color: var(--caramel); font-style: italic; }
+.intro-copy { max-width: 260px; margin: 0 0 6px; color: var(--muted); font-size: 15px; line-height: 1.55; }
+
+.filter-panel, .admin-panel { padding: 24px; border: 1px solid var(--line); background: var(--surface); box-shadow: var(--shadow); }
+.search-label, .category-heading h2 { display: block; margin: 0; font-size: 14px; font-weight: 700; }
+.search-input { width: 100%; height: 46px; margin-top: 10px; padding: 0 15px; border: 1px solid var(--line); background: #fcfaf8; }
+.category-heading { display: flex; align-items: baseline; gap: 11px; margin-top: 22px; }
+.category-heading span { color: var(--muted); font-size: 12px; }
+.category-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.category-button {
+	min-height: 36px; padding: 0 13px; border: 1px solid var(--line); background: var(--surface);
+	color: var(--ink); cursor: pointer; font-size: 13px;
+}
+.category-button:hover { border-color: var(--brown); }
+.category-button[aria-pressed="true"] { border-color: var(--brown); background: var(--brown); color: #fff; }
+
+.catalog-results { margin-top: 36px; }
+.results-heading { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 16px; }
+.results-heading h2 { margin: 0; font-family: Georgia, serif; font-size: 25px; font-weight: 500; }
+.results-heading p { margin: 0; color: var(--muted); font-size: 13px; }
+
+.products { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.product-card { display: flex; min-height: 250px; flex-direction: column; padding: 20px; border: 1px solid var(--line); background: var(--surface); }
+.product-card:hover { border-color: #d5bba5; box-shadow: var(--shadow); }
+.product-categories { display: flex; min-height: 23px; flex-wrap: wrap; gap: 6px; }
+.category-tag { margin: 0; padding: 4px 7px; background: #f3e7dc; color: var(--brown); font-size: 10px; font-weight: 700; }
+.product-card h3 { margin: 14px 0 6px; font-size: 18px; }
+.product-description { margin: 0 0 16px; color: var(--muted); font-size: 13px; line-height: 1.5; }
+.product-footer { display: flex; align-items: end; justify-content: space-between; margin-top: auto; padding-top: 14px; border-top: 1px solid #efe7e0; }
+.product-price, .product-stock { margin: 0; }
+.product-price { font-size: 17px; font-weight: 750; }
+.product-stock { color: var(--brown); font-size: 11px; }
+.product-stock.out-of-stock { color: var(--coral); }
+.product-admin { display: flex; gap: 6px; margin-top: 12px; }
+.product-admin input { width: 70px; padding: 4px 6px; border: 1px solid var(--line); }
+.small-button { padding: 4px 9px; border: 1px solid var(--line); background: #fcfaf8; cursor: pointer; font-size: 12px; }
+.small-button.danger { color: var(--coral); border-color: #ecc5ba; margin-left: auto; }
+
+.empty-state { grid-column: 1 / -1; margin: 0; padding: 30px 20px; border: 1px dashed #d5bba5; color: var(--muted); text-align: center; }
+.error-state { color: #9b3f2b; }
+
+.admin-panel { margin-top: 40px; }
+.admin-panel h2 { margin: 0 0 16px; font-family: Georgia, serif; font-weight: 500; }
+.admin-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.admin-form label { display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700; }
+.admin-form input[type="text"], .admin-form input[type="number"] { height: 40px; padding: 0 10px; border: 1px solid var(--line); font-weight: 400; }
+.admin-form fieldset { grid-column: 1 / -1; border: 1px solid var(--line); }
+.admin-form legend { font-size: 13px; font-weight: 700; }
+.checkbox-list { display: flex; flex-wrap: wrap; gap: 14px; }
+.checkbox-list label { flex-direction: row; align-items: center; font-weight: 400; }
+.primary-button { grid-column: 1 / -1; justify-self: start; padding: 10px 22px; border: 0; background: var(--brown); color: #fff; cursor: pointer; }
+.message { min-height: 22px; margin: 14px 0 0; font-size: 14px; }
+.message.ok { color: var(--brown); }
+.message.error { color: var(--coral); }
+
+.site-footer { border-top: 1px solid var(--line); background: #efe5dc; }
+.footer-inner { min-height: 62px; justify-content: space-between; color: var(--muted); font-size: 12px; }
+.footer-inner span:first-child { color: var(--brown-dark); font-weight: 700; }
+
+@media (max-width: 760px) {
+	.products { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 540px) {
+	.shell { width: min(100% - 32px, 1120px); }
+	.catalog-intro { display: block; }
+	.products, .admin-form { grid-template-columns: minmax(0, 1fr); }
+}

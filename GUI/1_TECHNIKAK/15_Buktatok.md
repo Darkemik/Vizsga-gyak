@@ -1,5 +1,10 @@
 # 15 – Buktatók (GUI)
 
+## 0. Piros vagy zöld aláhúzás?
+
+**Piros** hullámos vonal = **hiba**: a program nem indul el, javítani kell (a hibalista: View → Error List).
+**Zöld** hullámos vonal = **figyelmeztetés** (warning), pl. `object sender` alatt: a program **ugyanúgy fut**, nyugodtan hagyd.
+
 ## 1. Szűrés után ROSSZ elem adatai jelennek meg
 
 ```csharp
