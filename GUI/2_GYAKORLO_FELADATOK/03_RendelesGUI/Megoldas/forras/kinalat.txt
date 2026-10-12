@@ -1,0 +1,15 @@
+Nev;Kategoria;Ar;Laktozmentes;Cukormentes
+Espresso;Kávé;590;1;1
+Cappuccino;Kávé;890;0;1
+Latte;Kávé;990;0;1
+Zabtejes latte;Kávé;1190;1;1
+Jeges kávé;Kávé;1090;0;0
+Forró csoki;Ital;950;0;0
+Limonádé;Ital;790;1;0
+Zöld tea;Tea;690;1;1
+Gyümölcstea;Tea;690;1;1
+Kakaós csiga;Sütemény;650;0;0
+Almás pite;Sütemény;790;0;0
+Vegán brownie;Sütemény;890;1;0
+Cukormentes muffin;Sütemény;850;0;1
+Sajtos pogácsa;Sós;450;0;1

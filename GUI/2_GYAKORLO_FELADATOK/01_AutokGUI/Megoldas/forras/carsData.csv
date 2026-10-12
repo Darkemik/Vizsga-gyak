@@ -1,0 +1,199 @@
+Azonosito;Evjarat;GyartoID;GyartoNev;Modell;KilometeroraAllas;KarosszeriaID;KarosszeriaNev;HengerekSzama;ValtoID;ValtoNev;KulsoSzin;BelsoSzin;SzemelyekSzama;Ajtok;FogyasztasVarosban;FogyasztasAutopalyan;Ar
+1;1968;7;Ford;Mustang;96560;2;Coupe;8;1;4 Speed Manual;White;Black;4;2;13,59487179;8,901282051;499000
+2;2019;12;Porsche;911;1356;1;Convertible;6;1;6 Speed Manual;White;Black;2;2;17,4;12,4;435000
+3;2022;12;Porsche;911;2201;2;Coupe;6;1;6 Speed Manual;Silver;Black;2;2;15,6;12,7;365900
+4;2016;5;Dodge;Viper;8072;2;Coupe;4;1;6 Speed Manual;Viper White Clearcoat;Black;2;2;19,2;11,3;332800
+5;2018;12;Porsche;911;9036;2;Coupe;6;1;6 Speed Manual;Agate Grey Metallic;Black;3;2;15,8;11,6;279800
+6;2018;12;Porsche;911;9036;2;Coupe;6;1;6 Speed Manual;Agate Grey Metallic;Black;3;2;15,8;11,6;279800
+7;2016;5;Dodge;Viper;11449;2;Coupe;4;1;6 Speed Manual;Orange;Black;2;2;19,2;11,3;269900
+8;2008;12;Porsche;911;27475;2;Coupe;6;1;6 Speed Manual;Carrara White;Black;3;2;13,3;8,5;499800
+9;2017;5;Dodge;Viper;33553;2;Coupe;4;1;6 Speed Manual;Venom Black Clear Coat;Black;2;2;19,9;12,6;339800
+10;2017;5;Dodge;Viper;33553;2;Coupe;4;1;6 Speed Manual;Venom Black Clear Coat;Black;2;2;19,9;12,6;339800
+11;2010;12;Porsche;911;35999;2;Coupe;6;1;6 Speed Manual;Carrara White;Black;2;2;13,6576087;10,23369565;399800
+12;1997;12;Porsche;911;36118;2;Coupe;6;1;6 Speed Manual;Guards Red;Black;3;2;13,6576087;10,23369565;469800
+13;2019;12;Porsche;911;125;2;Coupe;6;2;7 Speed Automatic;Guards Red;Black;2;2;15,3;11,2;539000
+14;2022;6;Ferrari;F8;327;3;Roadster;8;2;7 Speed Automatic;Bianco Avus;Black;2;2;15,7;13,1;599987
+15;2022;6;Ferrari;F8;656;3;Roadster;8;2;7 Speed Automatic;Rosso Scuderia;Black;2;2;15,7;13,1;659987
+16;2020;8;Lamborghini;Huracan;884;2;Coupe;4;2;7 Speed Automatic;Arancio Borealis Pearl;Black;2;2;18,1;13,1;399998
+17;2019;8;Lamborghini;Aventador;1004;2;Coupe;4;2;7 Speed Automatic;Arancio Oicleo;Black;2;2;26,1;15,7;1699998
+18;2017;6;Ferrari;F12tdf;1077;2;Coupe;4;2;7 Speed Automatic;Blue;Black;2;2;21,4;15,7;1250000
+19;2019;6;Ferrari;488;1254;2;Coupe;8;2;7 Speed Automatic;Bianco Avus;Black;2;2;15,7;11,8;889998
+20;2021;6;Ferrari;812;2227;1;Convertible;4;2;7 Speed Automatic;Rosso Fuocco;Black;2;2;19,6;15,7;859987
+21;2021;6;Ferrari;812;2227;1;Convertible;4;2;7 Speed Automatic;Rosso Fuocco;Black;2;2;19,6;15,7;859987
+22;2021;6;Ferrari;F8;2455;3;Roadster;8;2;7 Speed Automatic;Rosso Corsa;Black;2;2;15,7;13,1;629987
+23;2019;12;Porsche;911;2676;2;Coupe;6;2;7 Speed Automatic;Black;Black;2;2;16,1;12,2;318800
+24;2019;12;Porsche;911;2676;2;Coupe;6;2;7 Speed Automatic;Black;Black;2;2;16,1;12,2;318800
+25;2019;12;Porsche;911;2676;2;Coupe;6;2;7 Speed Automatic;Black;Black;2;2;16,1;12,2;318800
+26;2019;12;Porsche;911;2676;2;Coupe;6;2;7 Speed Automatic;Black;Black;2;2;16,1;12,2;318800
+27;2019;12;Porsche;911;2676;2;Coupe;6;2;7 Speed Automatic;Black;Black;2;2;16,1;12,2;318800
+28;2019;12;Porsche;911;2676;2;Coupe;6;2;7 Speed Automatic;Black;Black;2;2;16,1;12,2;318800
+29;2020;6;Ferrari;812;3305;2;Coupe;4;2;7 Speed Automatic;Red;Black;2;2;19,6;14,7;788000
+30;2019;6;Ferrari;Portofino;3800;1;Convertible;8;2;7 Speed Automatic;Bianco Avus;Blue;4;2;14,7;10,7;299900
+31;2018;6;Ferrari;812;4078;2;Coupe;4;2;7 Speed Automatic;Red;Beige;2;2;19,6;14,7;635000
+32;2019;12;Porsche;911;4178;2;Coupe;6;2;7 Speed Automatic;Black;Black;2;2;16,1;12,2;339995
+33;2019;6;Ferrari;488;4711;2;Coupe;8;2;7 Speed Automatic;Red;Black;2;2;15,7;11,8;799999
+34;2019;6;Ferrari;Portofino;4737;1;Convertible;8;2;7 Speed Automatic;Nero Daytona Metallic;Cream;4;2;14,7;10,7;299900
+35;2021;6;Ferrari;812;5027;1;Convertible;4;2;7 Speed Automatic;Rosso Corsa;Black;2;2;19,6;15,7;829987
+36;2021;6;Ferrari;812;5027;1;Convertible;4;2;7 Speed Automatic;Rosso Corsa;Black;2;2;19,6;15,7;829987
+37;2020;10;McLaren;600LT;5090;1;Convertible;8;2;7 Speed Automatic;Silver;Black;2;2;15,7;10,7;368888
+38;2019;10;McLaren;720S;5435;2;Coupe;8;2;7 Speed Automatic;Blue;Black;2;2;15,7;10,7;359900
+39;2021;8;Lamborghini;Huracan;5586;1;Convertible;4;2;7 Speed Automatic;Blu Aegeus Matt;White;2;2;18,1;13,1;449998
+40;2021;8;Lamborghini;Huracan;5586;1;Convertible;4;2;7 Speed Automatic;Blu Aegeus Matt;White;2;2;18,1;13,1;449998
+41;2022;6;Ferrari;F8;6008;2;Coupe;8;2;7 Speed Automatic;Bianco Avus;Black;2;2;15,7;12,4;499987
+42;2019;12;Porsche;911;6132;2;Coupe;6;2;7 Speed Automatic;Black;Black;2;2;16,1;12,2;349900
+43;2021;8;Lamborghini;Huracan;6200;2;Coupe;4;2;7 Speed Automatic;Black;White;2;2;18,1;13,1;409990
+44;2018;8;Lamborghini;Huracan;6374;2;Coupe;8;2;7 Speed Automatic;Blue;Black;2;2;18,1;13,1;399900
+45;2019;12;Porsche;911;7257;2;Coupe;6;2;7 Speed Automatic;GT Silver Metallic;Red;4;2;13,6576087;10,23369565;239900
+46;2020;10;McLaren;720S;7415;1;Convertible;8;2;7 Speed Automatic;Silver;Black;2;2;15,7;10,7;408000
+47;2019;10;McLaren;720S;7450;2;Coupe;8;2;7 Speed Automatic;Grey;Black;2;2;15,7;10,7;337777
+48;2019;12;Porsche;911;7514;2;Coupe;6;2;7 Speed Automatic;Black;Black;2;2;13,6576087;10,23369565;319999
+49;2019;12;Porsche;911;7514;2;Coupe;6;2;7 Speed Automatic;Black;Black;2;2;13,6576087;10,23369565;319999
+50;2019;12;Porsche;911;7514;2;Coupe;6;2;7 Speed Automatic;Black;Black;2;2;13,6576087;10,23369565;319999
+51;2019;12;Porsche;911;7514;2;Coupe;6;2;7 Speed Automatic;Black;Black;2;2;13,6576087;10,23369565;319999
+52;2014;6;Ferrari;458;7955;1;Convertible;8;2;7 Speed Automatic;White;Black;2;2;18,1;13,8;399000
+53;2021;8;Lamborghini;Huracan;8258;1;Convertible;4;2;7 Speed Automatic;Ad Personam Blu Mehit Matt;White;2;2;18,1;13,1;419998
+54;2021;8;Lamborghini;Huracan;8258;1;Convertible;4;2;7 Speed Automatic;Ad Personam Blu Mehit Matt;White;2;2;18,1;13,1;419998
+55;2018;10;McLaren;720S;8508;2;Coupe;8;2;7 Speed Automatic;White;Tan;2;2;15,7;10,7;355000
+56;2020;8;Lamborghini;Aventador;8574;2;Coupe;4;2;7 Speed Automatic;Ad Personam Bianco Phanes Matt;Black;2;2;26,1;15,7;1049999
+57;2020;8;Lamborghini;Aventador;8574;2;Coupe;4;2;7 Speed Automatic;Ad Personam Bianco Phanes Matt;Black;2;2;26,1;15,7;1049999
+58;2019;8;Lamborghini;Aventador;9635;2;Coupe;4;2;7 Speed Automatic;Green;Black;2;2;26,1;15,7;1188000
+59;2020;10;McLaren;600LT;11088;1;Convertible;8;2;7 Speed Automatic;Cirrus Gray;Black;2;2;15,7;10,7;362888
+60;2022;8;Lamborghini;Huracan;11200;2;Coupe;4;2;7 Speed Automatic;Grigio Lynx Metallic;Black;2;2;18,1;13,1;399998
+61;2019;12;Porsche;911;14000;2;Coupe;6;2;7 Speed Automatic;Black;Light Grey;2;2;16,1;12,2;299999
+62;2018;12;Porsche;911;14095;2;Coupe;6;2;7 Speed Automatic;Lava Orange;Black;2;2;15,8;11,6;249900
+63;2019;12;Porsche;911;15194;2;Coupe;6;2;7 Speed Automatic;White;Black;2;2;16,1;12,2;329000
+64;2015;6;Ferrari;FF;16592;2;Coupe;4;2;7 Speed Automatic;Argento Nurburgring Metallic;Black;4;2;21,4;14,7;249900
+65;2013;6;Ferrari;458;18462;1;Convertible;8;2;7 Speed Automatic;White;Black;2;2;18,1;13,8;320000
+66;2018;8;Lamborghini;Aventador;22261;2;Coupe;4;2;7 Speed Automatic;Orange;Black;2;2;26,1;15,7;569999
+67;2012;6;Ferrari;458;24751;2;Coupe;8;2;7 Speed Automatic;Black;Black;2;2;19,6;13,1;298888
+68;2019;4;Chevrolet;Corvette;21485;2;Coupe;8;3;7 Speed Manual;Corvette Racing Yellow Tintcoat;Black;2;2;18,2;12;249800
+69;2023;12;Porsche;Cayenne;67;5;SUV;8;4;8 Speed Automatic;Moonlight Blue Metallic;Black;4;4;15,8;12,2;259900
+70;2022;3;Bentley;Bentayga;500;5;SUV;4;4;8 Speed Automatic;Glacier White;Black;4;4;19,6;13,1;399998
+71;2022;3;Bentley;Bentayga;500;5;SUV;4;4;8 Speed Automatic;Glacier White;Black;4;4;19,6;13,1;399998
+72;2021;13;Rolls-Royce;Dawn;600;1;Convertible;4;4;8 Speed Automatic;Black;Black;4;2;19,6;13,1;699998
+73;2021;6;Ferrari;Roma;763;2;Coupe;6;4;8 Speed Automatic;Not Specified;Tan;4;2;13,8;10,7;349900
+74;2022;12;Porsche;911;1389;2;Coupe;6;4;8 Speed Automatic;Black;Red;2;2;13,6576087;10,23369565;329999
+75;2022;13;Rolls-Royce;Cullinan;1535;5;SUV;4;4;8 Speed Automatic;Black;Orange;4;4;19,6;11,8;650000
+76;2022;9;Maserati;MC20;1541;2;Coupe;6;4;8 Speed Automatic;Bianco Audace;Black;2;2;15,7;9,4;399987
+77;2021;12;Porsche;911;1543;1;Convertible;6;4;8 Speed Automatic;Black;Black;3;2;13,6576087;10,23369565;339800
+78;2022;13;Rolls-Royce;Cullinan;1765;5;SUV;4;4;8 Speed Automatic;Darkest Tungsten;Red;4;4;19,6;11,8;592500
+79;2021;8;Lamborghini;Urus;2177;5;SUV;8;4;8 Speed Automatic;Verde Mantis Nero Noctis Pearl;Black;5;4;19,6;13,8;419998
+80;2022;12;Porsche;911;2401;2;Coupe;6;4;8 Speed Automatic;Silver;Black;2;2;15,6;12,7;349900
+81;2022;12;Porsche;911;3047;2;Coupe;6;4;8 Speed Automatic;Agate Grey Metallic;Black;2;2;13,6576087;10,23369565;299900
+82;2020;13;Rolls-Royce;Phantom;3149;4;Sedan;4;4;8 Speed Automatic;Midnight Sapphire;Black;5;4;19,6;11,8;629998
+83;2021;13;Rolls-Royce;Ghost;3309;4;Sedan;4;4;8 Speed Automatic;Black Diamond;Black;5;4;19,6;12,4;499998
+84;2022;12;Porsche;911;3446;2;Coupe;6;4;8 Speed Automatic;Silver;Blue;2;2;13,6576087;10,23369565;349900
+85;2020;13;Rolls-Royce;Phantom;4294;4;Sedan;4;4;8 Speed Automatic;Gunmetal/Premiere Silver Two Tone;Black;5;4;19,6;11,8;669000
+86;2021;13;Rolls-Royce;Ghost;4411;4;Sedan;4;4;8 Speed Automatic;Black Diamond;Black;5;4;19,6;12,4;499998
+87;2019;13;Rolls-Royce;Cullinan;4453;5;SUV;4;4;8 Speed Automatic;Midnight Sapphire;Black;4;4;19,6;11,8;529988
+88;2022;13;Rolls-Royce;Cullinan;4614;5;SUV;4;4;8 Speed Automatic;White;Orange;4;4;19,6;11,8;619000
+89;2021;6;Ferrari;Roma;5257;2;Coupe;8;4;8 Speed Automatic;Nero Daytona Metallic;Tan;4;2;13,8;10,7;339999
+90;2022;12;Porsche;911;5851;2;Coupe;6;4;8 Speed Automatic;Gentian Blue Metallic;Black;2;2;15,6;12,7;323995
+91;2017;13;Rolls-Royce;Ghost;6218;4;Sedan;4;4;8 Speed Automatic;White;Black;5;4;19,6;12,4;339995
+92;2022;13;Rolls-Royce;Cullinan;7055;5;SUV;4;4;8 Speed Automatic;Magma Red;Orange;4;4;19,6;11,8;649998
+93;2021;8;Lamborghini;Urus;8328;5;SUV;8;4;8 Speed Automatic;Nero Noctis;Black;5;4;19,6;13,8;399988
+94;2019;13;Rolls-Royce;Wraith;9800;2;Coupe;4;4;8 Speed Automatic;Black;Black;4;2;19,6;13,1;478888
+95;2020;13;Rolls-Royce;Wraith;10000;2;Coupe;4;4;8 Speed Automatic;Grey;Beige;4;2;19,6;13,1;699990
+96;2021;8;Lamborghini;Urus;10241;5;SUV;8;4;8 Speed Automatic;Ad Personam Blu Cepheus Pearl;Black;5;4;19,6;13,8;399998
+97;2022;3;Bentley;Continental;12199;2;Coupe;4;4;8 Speed Automatic;Hallmark;Black;4;3;19,6;11,8;419998
+98;2020;13;Rolls-Royce;Dawn;12750;1;Convertible;4;4;8 Speed Automatic;Midnight Sapphire;Black;4;2;19,6;13,1;529787
+99;2021;13;Rolls-Royce;Ghost;13821;4;Sedan;4;4;8 Speed Automatic;Tempest Gray;Black;5;4;19,6;12,4;548155
+100;2020;3;Bentley;Continental;14365;2;Coupe;4;4;8 Speed Automatic;Black Crystal;Black;4;3;19,6;11,8;349998
+101;2020;3;Bentley;Continental;14365;2;Coupe;4;4;8 Speed Automatic;Black Crystal;Black;4;3;19,6;11,8;349998
+102;2021;8;Lamborghini;Urus;14380;5;SUV;8;4;8 Speed Automatic;Giallo Inti Nero Noctis Pearl;Black;5;4;19,6;13,8;409998
+103;2020;3;Bentley;Continental;17505;2;Coupe;8;4;8 Speed Automatic;Glacier White;Black;4;3;14,7;9;299900
+104;2020;3;Bentley;Continental;17802;2;Coupe;8;4;8 Speed Automatic;Black;Brown;4;3;14,7;9;309900
+105;2018;3;Bentley;Bentayga;27287;5;SUV;4;4;8 Speed Automatic;Black;Black;5;4;19,6;12,4;239998
+106;2021;8;Lamborghini;Urus;32922;5;SUV;8;4;8 Speed Automatic;Black;Black;4;4;19,6;13,8;379000
+107;2020;3;Bentley;Bentayga;40686;5;SUV;8;4;8 Speed Automatic;Dark Sapphire;Black;7;4;16,8;10,2;259998
+108;2022;12;Porsche;911;2317;4;Sedan;6;4;8 Speed Automatic with auto-shift;White;Blue;4;2;13,6576087;10,23369565;325800
+109;2016;13;Rolls-Royce;Dawn;22358;1;Convertible;4;4;8 Speed Automatic with auto-shift;White;White;4;2;19,6;12,82;369999
+110;2022;1;Aston Martin;Martin;4703;5;SUV;8;4;9 Speed Automatic;Liquid Crimson;Black;5;4;16,8;11,8;249998
+111;2022;1;Aston Martin;Martin;4703;5;SUV;8;4;9 Speed Automatic;Liquid Crimson;Black;5;4;16,8;11,8;249998
+112;2020;11;Mercedes-Benz;G-Class;30000;5;SUV;8;4;9 Speed Automatic;Black;Red;5;4;18,1;15,6;249999
+113;2022;13;Rolls-Royce;Ghost;88;4;Sedan;4;5;Automatic;Black Diamond;Blue;5;4;19,6;12,4;525000
+114;2022;11;Mercedes-Benz;SL-Class;90;2;Coupe;8;5;Automatic;MANUFAKTUR Opalite White MAGNO;Black;4;2;17,1;11,3;249945
+115;2022;11;Mercedes-Benz;SL-Class;90;2;Coupe;8;5;Automatic;MANUFAKTUR Opalite White MAGNO;Black;4;2;17,1;11,3;249945
+116;2022;3;Bentley;Bentayga;100;5;SUV;8;5;Automatic;Cambrian Grey;Black;5;4;18,76;11,88;409899
+117;2022;3;Bentley;Flying;100;4;Sedan;8;5;Automatic;Glacier White;Black;5;4;19,6;11,8;378888
+118;2022;13;Rolls-Royce;Cullinan;104;5;SUV;4;5;Automatic;White;Orange;5;4;19,6;11,8;597499
+119;2022;2;Audi;R8;180;2;Coupe;4;5;Automatic;Grey;Black;2;2;16,7;10,3;254991
+120;2023;2;Audi;R8;180;1;Convertible;4;5;Automatic;Mythos Black Metallic;Black;2;2;16,6;10,2;279900
+121;2023;2;Audi;R8;180;1;Convertible;4;5;Automatic;Mythos Black Metallic;Black;2;2;16,6;10,2;279900
+122;2022;8;Lamborghini;Huracan;500;2;Coupe;8;5;Automatic;Arancio Borealis Metallic;Black;2;2;18,1;13,1;408888
+123;2022;8;Lamborghini;Huracan;500;2;Coupe;8;5;Automatic;Arancio Borealis Metallic;Black;2;2;18,1;13,1;408888
+124;2021;13;Rolls-Royce;Ghost;800;4;Sedan;8;5;Automatic;Anthracite Metallic;Black;5;4;19,6;12,4;487888
+125;2021;6;Ferrari;F8;900;2;Coupe;6;5;Automatic;Rosso Corsa;Black;2;2;15,7;12,4;509899
+126;2022;8;Lamborghini;Huracan;994;2;Coupe;4;5;Automatic;Green;Black;2;2;18,1;13,1;479000
+127;2021;8;Lamborghini;Huracan;1000;2;Coupe;8;5;Automatic;Black;White;2;2;18,1;13,1;649899
+128;2022;13;Rolls-Royce;Cullinan;1200;5;SUV;8;5;Automatic;All Black;Orange;4;4;19,6;11,8;698888
+129;2023;8;Lamborghini;Huracan;1700;1;Convertible;4;5;Automatic;Black;Red;2;2;18,1;13,1;478888
+130;2022;12;Porsche;911;1900;2;Coupe;6;5;Automatic;White;Red;3;2;13,6576087;10,23369565;309999
+131;2022;8;Lamborghini;Urus;2000;5;SUV;8;5;Automatic;Nero Nemesis;Red;5;4;19,6;13,8;428888
+132;2020;8;Lamborghini;Aventador;2000;2;Coupe;8;5;Automatic;Nero Nemesis Matt;Black;2;2;26,1;15,7;787888
+133;2021;2;Audi;R8;2950;2;Coupe;4;5;Automatic;Ibis White;Red;2;2;17,325;10,525;268800
+134;2021;2;Audi;R8;2950;2;Coupe;4;5;Automatic;Ibis White;Red;2;2;17,325;10,525;268800
+135;2022;8;Lamborghini;Urus;3000;5;SUV;8;5;Automatic;Grigio Hati;Red;5;4;19,6;13,8;418888
+136;2021;12;Porsche;911;3413;2;Coupe;6;5;Automatic;Dolomite Silver Metallic;Black;4;2;13,6576087;10,23369565;314800
+137;2020;8;Lamborghini;Aventador;3950;2;Coupe;8;5;Automatic;Orange;Black;2;2;26,1;15,7;1288888
+138;2021;2;Audi;R8;3999;1;Convertible;4;5;Automatic;Daytona Gray Pearl Effect;Red;2;2;17,325;10,525;296800
+139;2021;2;Audi;R8;3999;1;Convertible;4;5;Automatic;Daytona Gray Pearl Effect;Red;2;2;17,325;10,525;296800
+140;2022;8;Lamborghini;Urus;4553;5;SUV;8;5;Automatic;White;Red;5;4;19,6;13,8;378888
+141;2021;12;Porsche;911;6000;2;Coupe;6;5;Automatic;Jet Black Metallic;Black;4;2;13,6576087;10,23369565;378888
+142;2022;6;Ferrari;F8;6000;2;Coupe;6;5;Automatic;Rosso Corsa;Black;2;2;15,7;12,82;559899
+143;2022;12;Porsche;911;6100;1;Convertible;6;5;Automatic;White;Red;3;2;13,6576087;10,23369565;358888
+144;2019;13;Rolls-Royce;Wraith;6566;2;Coupe;4;5;Automatic;Salamanca Blue / Arctic White Two-Tone;Black;4;2;19,6;13,1;479998
+145;2009;11;Mercedes-Benz;SL-Class;6893;1;Convertible;4;5;Automatic;Black;Dark Grey;3;2;18,5;11,2;799800
+146;2021;12;Porsche;911;7000;2;Coupe;6;5;Automatic;Gentian Blue Metallic;Black;4;2;13,6576087;10,23369565;349888
+147;2020;3;Bentley;Continental;7000;1;Convertible;8;5;Automatic;White;Black;4;2;14,7;9;333888
+148;2022;8;Lamborghini;Huracan;8000;2;Coupe;8;5;Automatic;Nero Helene Metallic;Black;2;2;18,1;13,1;408888
+149;2020;2;Audi;R8;8193;1;Convertible;4;5;Automatic;Ibis White;Black;2;2;17,325;10,525;239998
+150;2020;13;Rolls-Royce;Cullinan;8957;5;SUV;4;5;Automatic;Black;Black;5;4;19,6;11,8;599999
+151;2019;6;Ferrari;Portofino;9959;1;Convertible;6;5;Automatic;Grigio Alloy Metallic;Blue;4;2;14,7;10,7;297888
+152;2016;13;Rolls-Royce;Wraith;10000;2;Coupe;4;5;Automatic;Black;Red;4;2;18,1;11,2;334500
+153;2016;8;Lamborghini;Aventador;10337;1;Convertible;8;5;Automatic;White;Black;2;2;26,1;15,7;539950
+154;2019;6;Ferrari;488;11710;1;Convertible;8;5;Automatic;Bianco Avus;Black;2;2;15,7;10,7;419910
+155;2020;10;McLaren;600LT;12000;1;Convertible;6;5;Automatic;Myan Orange;Black;2;2;15,7;10,7;364888
+156;2021;8;Lamborghini;Urus;12472;5;SUV;8;5;Automatic;Nero Noctis;Black;5;4;19,6;13,8;369998
+157;2018;10;McLaren;570S;12563;1;Convertible;8;5;Automatic;Orange;Black;2;2;14,7;10,2;239900
+158;2017;6;Ferrari;California;12797;1;Convertible;8;5;Automatic;Blu California;Red;4;2;14,7;10,2;248800
+159;2017;6;Ferrari;California;12797;1;Convertible;8;5;Automatic;Blu California;Red;4;2;14,7;10,2;248800
+160;2021;2;Audi;R8;12981;1;Convertible;4;5;Automatic;Ibis White;Red;2;2;17,325;10,525;278800
+161;2021;2;Audi;R8;12981;1;Convertible;4;5;Automatic;Ibis White;Red;2;2;17,325;10,525;278800
+162;2017;6;Ferrari;California;14000;1;Convertible;8;5;Automatic;Bianco Avus;Black;4;2;14,7;10,2;249800
+163;2017;6;Ferrari;California;14000;1;Convertible;8;5;Automatic;Bianco Avus;Black;4;2;14,7;10,2;249800
+164;2020;3;Bentley;Continental;14000;2;Coupe;8;5;Automatic;Glacier White;Red;4;2;19,6;11,8;338888
+165;2021;8;Lamborghini;Urus;15000;5;SUV;8;5;Automatic;Nero Noctis Matt;Black;5;4;19,6;13,8;358888
+166;2018;8;Lamborghini;Huracan;16097;1;Convertible;4;5;Automatic;Black;Black;2;2;18,1;13,1;449800
+167;2018;8;Lamborghini;Huracan;16097;1;Convertible;4;5;Automatic;Black;Black;2;2;18,1;13,1;449800
+168;2017;8;Lamborghini;Aventador;16113;2;Coupe;4;5;Automatic;White;Black;2;2;26,1;15,7;578800
+169;2017;8;Lamborghini;Aventador;16113;2;Coupe;4;5;Automatic;White;Black;2;2;26,1;15,7;578800
+170;2018;8;Lamborghini;Huracan;16197;2;Coupe;4;5;Automatic;Red;Black;2;2;18,1;13,1;419998
+171;2021;8;Lamborghini;Urus;17000;5;SUV;4;5;Automatic;Black;Black;4;4;19,6;13,8;369888
+172;2019;12;Porsche;911;18172;2;Coupe;6;5;Automatic;Jet Black Metallic;Black;2;2;13,6576087;10,23369565;259888
+173;2017;13;Rolls-Royce;Dawn;19000;1;Convertible;8;5;Automatic;Stone Gray;Black;4;2;19,6;12,4;358888
+174;2017;13;Rolls-Royce;Dawn;19000;1;Convertible;8;5;Automatic;Stone Gray;Black;4;2;19,6;12,4;358888
+175;2018;10;McLaren;720S;19645;2;Coupe;8;5;Automatic;Gray;Black;2;2;15,7;10,7;329303
+176;2015;6;Ferrari;458;20000;2;Coupe;8;5;Automatic;Bianco Avus;Black;2;2;18,6;13,56666667;368899
+177;2015;6;Ferrari;458;20000;2;Coupe;8;5;Automatic;Bianco Avus;Black;2;2;18,6;13,56666667;368899
+178;2018;10;McLaren;570S;20000;2;Coupe;6;5;Automatic;Mantis Green;Black;2;2;14,7;10,2;248899
+179;2019;12;Porsche;911;20221;2;Coupe;6;5;Automatic;Black;Black;2;2;16,1;12,2;318888
+180;2018;13;Rolls-Royce;Dawn;23000;1;Convertible;4;5;Automatic;Black;Black;4;2;19,6;13,1;458888
+181;2021;11;Mercedes-Benz;G-Class;27185;5;SUV;8;5;Automatic;Black;Red;5;4;18,6;15,5;245980
+182;2018;10;McLaren;570S;31610;1;Convertible;8;5;Automatic;White;Black;2;2;14,7;10,2;239900
+183;2019;8;Lamborghini;Urus;33000;5;SUV;8;5;Automatic;White;Red;5;4;19,6;13,8;299800
+184;2019;8;Lamborghini;Urus;33000;5;SUV;8;5;Automatic;White;Red;5;4;19,6;13,8;299800
+185;2013;6;Ferrari;458;35900;1;Convertible;8;5;Automatic;White;Black;2;2;18,6;13,56666667;329950
+186;2015;13;Rolls-Royce;Wraith;36217;2;Coupe;4;5;Automatic;White;Black;4;2;19;12,34;239900
+187;2013;6;Ferrari;458;39000;1;Convertible;8;5;Automatic;Nero;Black;2;2;18,6;13,56666667;318888
+188;2008;13;Rolls-Royce;Phantom;42893;1;Convertible;4;5;Automatic;Black;Beige;4;2;21,4;13,1;239910
+189;2008;13;Rolls-Royce;Phantom;42893;1;Convertible;4;5;Automatic;Black;Cream;4;2;20,2;12,23333333;239910
+190;2019;8;Lamborghini;Urus;53556;5;SUV;8;5;Automatic;Blue;Brown;5;4;19,6;13,8;279800
+191;2019;8;Lamborghini;Urus;53556;5;SUV;8;5;Automatic;Blue;Brown;5;4;19,6;13,8;279800
+192;2018;6;Ferrari;GTC4Lusso;59472;6;Wagon;4;5;Automatic;White;Blue;4;2;19,6;13,8;259910
+193;2019;8;Lamborghini;Urus;62435;5;SUV;4;5;Automatic;Black;Brown;5;5;19,6;13,8;272950
+194;2017;5;Dodge;Viper;1501;2;Coupe;4;6;Manual;Adrenaline Red;Black;2;2;19,9;12,6;369695
+195;2022;12;Porsche;911;6909;2;Coupe;6;6;Manual;Custom Colour;Black;3;2;15,6;12,7;348000
+196;2006;8;Lamborghini;Gallardo;20245;2;Coupe;4;6;Manual;Green;Black;2;2;23,5;13,8;249900
+197;1996;12;Porsche;911;43148;2;Coupe;6;6;Manual;Silver;Black;3;2;13,6576087;10,23369565;349000
+198;2016;12;Porsche;911;22077;2;Coupe;6;2;7 Speed Automatic;Blue;Beige;4;2;12,9;9;149995

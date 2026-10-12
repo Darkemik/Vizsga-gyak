@@ -1,0 +1,21 @@
+Id;Cim;Szerzo;Mufaj;Kiadas;Oldalszam;Kikolcsonozve
+1;Egri csillagok;Gárdonyi Géza;Regény;1899;512;0
+2;A Pál utcai fiúk;Molnár Ferenc;Ifjúsági;1906;224;1
+3;Tüskevár;Fekete István;Ifjúsági;1957;416;0
+4;Abigél;Szabó Magda;Regény;1970;384;1
+5;Légy jó mindhalálig;Móricz Zsigmond;Regény;1920;320;0
+6;Az ember tragédiája;Madách Imre;Dráma;1861;256;0
+7;Bánk bán;Katona József;Dráma;1821;192;1
+8;Csongor és Tünde;Vörösmarty Mihály;Dráma;1830;208;0
+9;A kőszívű ember fiai;Jókai Mór;Regény;1869;608;0
+10;Kincskereső kisködmön;Móra Ferenc;Ifjúsági;1918;176;0
+11;Vuk;Fekete István;Ifjúsági;1965;160;1
+12;Rozsdatemető;Fejes Endre;Regény;1962;288;0
+13;A magyar helyesírás szabályai;MTA;Szakkönyv;2015;352;0
+14;Programozás C# nyelven;Illés Zoltán;Szakkönyv;2019;640;1
+15;Adatbázis-kezelés;Kovács Anna;Szakkönyv;2021;300;0
+16;Toldi;Arany János;Vers;1847;96;0
+17;János vitéz;Petőfi Sándor;Vers;1845;88;1
+18;A walesi bárdok;Arany János;Vers;1857;24;0
+19;Édes Anna;Kosztolányi Dezső;Regény;1926;336;1
+20;Iskola a határon;Ottlik Géza;Regény;1959;432;0

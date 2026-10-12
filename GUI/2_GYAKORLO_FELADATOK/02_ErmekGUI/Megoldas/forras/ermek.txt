@@ -1,0 +1,25 @@
+Id	Iskola	Varos	Ev	Arany	Ezust	Bronz
+1	Vasvári Technikum	Budapest	2022	4	0	5
+2	Kossuth Gimnázium	Debrecen	2022	4	0	3
+3	Dobó Gimnázium	Eger	2022	0	0	6
+4	Petőfi Gimnázium	Budapest	2022	3	0	3
+5	Bolyai Technikum	Szeged	2022	0	4	6
+6	Szent István Technikum	Székesfehérvár	2022	0	6	1
+7	Bethlen Technikum	Békéscsaba	2023	1	0	2
+8	Lévay Gimnázium	Miskolc	2023	2	3	2
+9	Szent István Technikum	Székesfehérvár	2023	4	0	4
+10	Petőfi Gimnázium	Budapest	2023	4	6	2
+11	Dobó Gimnázium	Eger	2023	0	4	3
+12	Babits Gimnázium	Szekszárd	2023	2	0	1
+13	Szent István Technikum	Székesfehérvár	2024	4	3	5
+14	Petőfi Gimnázium	Budapest	2024	3	4	7
+15	Bánki Technikum	Budaörs	2024	2	2	3
+16	Bethlen Technikum	Békéscsaba	2024	1	5	3
+17	Táncsics Technikum	Kaposvár	2024	0	4	4
+18	Vasvári Technikum	Budapest	2024	4	3	5
+19	Bánki Technikum	Budaörs	2025	3	1	5
+20	Táncsics Technikum	Kaposvár	2025	1	3	6
+21	Széchenyi Gimnázium	Sopron	2025	0	5	1
+22	Bolyai Technikum	Szeged	2025	4	4	5
+23	Babits Gimnázium	Szekszárd	2025	2	5	5
+24	Szent István Technikum	Székesfehérvár	2025	4	3	7

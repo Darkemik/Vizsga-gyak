@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <!-- Az adatfájl a projekt "forras" mappájában van. A program a bin\Debug\net10.0-windows\
+       mappából fut, ezért a kódban "../../../forras/carsData.csv" az útvonal (3 mappát lépünk fel). -->
+
+</Project>
