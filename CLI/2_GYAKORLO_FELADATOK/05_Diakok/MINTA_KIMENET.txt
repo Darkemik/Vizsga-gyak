@@ -1,0 +1,30 @@
+A program kimenete (magyar Windows-on így néz ki):
+(A bekért érték: kiss)
+============================================================
+3. feladat: Diákok száma: 30
+4. feladat: Legjobb átlag: 5,00
+	Balogh Ádám (12.A)
+	Szilágyi Kata (12.A)
+5. feladat: Osztályok:
+	11.A: 8 fő, átlag: 4,15
+	11.B: 9 fő, átlag: 3,83
+	12.A: 13 fő, átlag: 3,92
+6. feladat: Elégtelent kapott diákok (2 fő):
+	Farkas Levente: 4, 1, 3, 2, 1, 3
+	Oláh Kata: 2, 1, 2, 2, 1, 1, 2, 2, 2
+7. feladat: Kérek egy névrészletet: kiss
+	Kiss Máté (11.B), átlag: 4,50
+	Kiss Réka (11.B), átlag: 3,67
+8. feladat: Legtöbb hiányzás (61 óra): Oláh Gergő, Oláh Nóra
+9. feladat: kitunok.txt elkészült, 2 kitűnő tanuló.
+10. feladat: Jegyek eloszlása:
+	5-es: 71 db
+	4-es: 82 db
+	3-es: 42 db
+	2-es: 17 db
+	1-es: 5 db
+
+--- A(z) kitunok.txt fájl tartalma ---
+Balogh Ádám;12.A
+Szilágyi Kata;12.A
+

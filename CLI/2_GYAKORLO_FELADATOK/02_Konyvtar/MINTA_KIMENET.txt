@@ -1,0 +1,34 @@
+A program kimenete (magyar Windows-on így néz ki):
+(A bekért érték: Kiss Anna)
+============================================================
+3. feladat: Kölcsönzések száma: 38
+4. feladat: Még vissza nem hozott könyvek: 3 db
+5. feladat: A leghosszabb kölcsönzés:
+	Olvasó: Szabó Bence
+	Könyv: Jókai Mór: A kőszívű ember fiai
+	Időtartam: 63 nap
+6. feladat: Kölcsönzések hónaponként:
+	január       4 db
+	február      2 db
+	március      3 db
+	április      7 db
+	május        11 db
+	június       4 db
+	július       1 db
+	augusztus    6 db
+7. feladat: Kérem az olvasó nevét: Kiss Anna
+	2026.04.12. A Pál utcai fiúk (visszahozva)
+	2026.04.15. A láthatatlan ember (visszahozva)
+	2026.04.19. Légy jó mindhalálig (visszahozva)
+	2026.05.20. Az arany ember (visszahozva)
+	2026.06.21. Iskola a határon (visszahozva)
+	2026.08.03. Légy jó mindhalálig (visszahozva)
+	2026.08.27. A Pál utcai fiúk (visszahozva)
+8. feladat: A legnépszerűbb könyv: Gárdonyi Géza: Egri csillagok (5 alkalommal)
+9. feladat: kesesek.txt elkészült, 3 késésben lévő könyv.
+
+--- A(z) kesesek.txt fájl tartalma ---
+Molnár Ádám;Az ember tragédiája;137
+Tóth Eszter;Az ember tragédiája;117
+Kovács Dóra;Rozsdatemető;62
+

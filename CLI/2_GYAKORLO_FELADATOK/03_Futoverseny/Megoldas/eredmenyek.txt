@@ -1,0 +1,43 @@
+Rajtszam;Nev;Egyesulet;Kategoria;Nem;Ido
+101;Varga Dóra;Nógrádi Szaladók;Felnott;N;02:29:23
+102;Simon Eszter;Pesti Kocogók;Felnott;N;02:36:07
+103;Balogh Máté;Gödöllői Lépés;Felnott;F;02:14:29
+104;Oláh Anna;Gödöllői Lépés;Szenior;N;02:02:17
+105;Molnár Lili;Gödöllői Lépés;Junior;N;02:07:35
+106;Tóth Péter;Váci Atlétika;Junior;F;02:01:55
+107;Farkas Zsófia;Szentendrei FC;Junior;N;02:12:18
+108;Balogh Kata;Váci Atlétika;Szenior;N;02:17:07
+109;Szabó Anna;Dunakeszi Futók SE;Felnott;N;01:40:54
+110;Tóth Máté;Dunakeszi Futók SE;Felnott;F;01:09:12
+111;Farkas Péter;Nógrádi Szaladók;Felnott;F;01:44:19
+112;Juhász Nóra;Szentendrei FC;Szenior;N;02:12:53
+113;Mészáros Réka;Dunakeszi Futók SE;Szenior;N;01:33:35
+114;Juhász Gergő;Nógrádi Szaladók;Felnott;F;01:33:09
+115;Kiss Zoltán;Nógrádi Szaladók;Szenior;F;02:01:03
+116;Oláh Balázs;Nógrádi Szaladók;Szenior;F;01:22:34
+117;Szilágyi Ádám;Pesti Kocogók;Szenior;F;01:56:11
+118;Lakatos Réka;Pesti Kocogók;Szenior;N;02:29:47
+119;Juhász Péter;Dunakeszi Futók SE;Felnott;F;01:40:53
+120;Papp Balázs;Nógrádi Szaladók;Felnott;F;01:41:32
+121;Lakatos Gergő;Szentendrei FC;Felnott;F;02:08:16
+122;Simon Anna;Pesti Kocogók;Junior;N;01:55:07
+123;Farkas Balázs;Váci Atlétika;Junior;F;01:34:01
+124;Kovács Balázs;Nógrádi Szaladók;Junior;F;01:26:48
+125;Fekete Gergő;Váci Atlétika;Felnott;F;01:18:55
+126;Fekete Réka;Dunakeszi Futók SE;Felnott;N;01:14:40
+127;Fekete Dávid;Gödöllői Lépés;Felnott;F;01:33:23
+128;Tóth Tamás;Nógrádi Szaladók;Felnott;F;01:22:14
+129;Kiss Tamás;Gödöllői Lépés;Felnott;F;02:02:54
+130;Horváth Zsófia;Pesti Kocogók;Junior;N;02:10:18
+131;Mészáros Ádám;Szentendrei FC;Felnott;F;01:29:12
+132;Horváth Ádám;Pesti Kocogók;Junior;F;01:41:41
+133;Horváth Eszter;Pesti Kocogók;Szenior;N;02:38:22
+134;Papp Dávid;Dunakeszi Futók SE;Junior;F;01:21:11
+135;Horváth Péter;Nógrádi Szaladók;Felnott;F;02:07:19
+136;Molnár Ádám;Pesti Kocogók;Junior;F;02:25:41
+137;Juhász Hanna;Váci Atlétika;Felnott;N;02:00:45
+138;Balogh Levente;Gödöllői Lépés;Szenior;F;01:21:40
+139;Szabó Dávid;Váci Atlétika;Szenior;F;02:03:14
+140;Nagy Dávid;Váci Atlétika;Felnott;F;02:28:26
+141;Szilágyi Máté;Váci Atlétika;Szenior;F;01:43:44
+142;Balogh Ádám;Nógrádi Szaladók;Szenior;F;02:00:31

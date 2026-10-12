@@ -1,0 +1,43 @@
+Azonosito;Evjarat;GyartoID;GyartoNev;Modell;KilometeroraAllas;KarosszeriaID;KarosszeriaNev;HengerekSzama;ValtoID;ValtoNev;KulsoSzin;BelsoSzin;SzemelyekSzama;Ajtok;FogyasztasVarosban;FogyasztasAutopalyan;Ar
+69294;2018;1;Rolls-Royce;Wraith;33094;1;Sedan;8;1;Automatic;Grey;Black;4;4;13.1;10.6;494462.59
+83370;2018;3;Lamborghini;Huracan;55749;2;Coupe;12;1;Automatic;Grey;Brown;2;2;18.8;9.4;357434.46
+71033;2020;7;Mercedes-Benz;G 63 AMG;3373;4;SUV;8;1;Automatic;White;Beige;4;4;14.8;9.8;510377.52
+69222;2021;1;Rolls-Royce;Cullinan;39639;4;SUV;8;1;Automatic;Red;Black;4;4;14.2;10.7;192169.4
+76563;2023;1;Rolls-Royce;Ghost;17475;1;Sedan;8;1;Automatic;Blue;Brown;4;4;15.1;11.5;312034.04
+86989;2019;7;Mercedes-Benz;AMG GT;21571;2;Coupe;8;1;Automatic;Grey;White;2;2;15.6;9.6;391057.24
+34890;2020;8;McLaren;720S;32048;3;Convertible;8;2;Manual;Grey;Brown;2;2;16.6;9.0;201808.53
+34203;2017;6;Porsche;Cayenne;17367;4;SUV;8;1;Automatic;White;Brown;4;4;18.1;10.0;247068.45
+77096;2019;2;Ferrari;Roma;8724;2;Coupe;8;2;Manual;Black;Beige;2;2;19.4;8.8;325182.19
+72359;2018;5;Aston Martin;Vantage;5398;2;Coupe;8;1;Automatic;Black;Brown;2;2;20.6;13.4;406444.51
+92559;2020;4;Bentley;Flying Spur;42599;1;Sedan;12;2;Manual;White;Black;4;4;13.2;11.7;348620.02
+90472;2023;8;McLaren;720S;10980;2;Coupe;8;1;Automatic;Green;Brown;2;2;19.7;13.1;305457.09
+34402;2017;5;Aston Martin;DB11;15949;2;Coupe;8;1;Automatic;Silver;Brown;4;2;16.2;8.6;212914.45
+22336;2017;2;Ferrari;296 GTB;63839;2;Coupe;12;1;Automatic;Black;Beige;2;2;17.4;11.1;291687.78
+68535;2016;4;Bentley;Bentayga;49028;4;SUV;8;1;Automatic;Silver;Beige;4;4;18.2;13.1;273679.8
+49767;2023;6;Porsche;Panamera;32451;1;Sedan;6;1;Automatic;Silver;Brown;4;4;19.4;10.2;496929.77
+28585;2019;4;Bentley;Bentayga;51186;4;SUV;12;1;Automatic;White;White;4;4;16.7;12.5;491607.22
+21884;2020;5;Aston Martin;Vantage;22968;2;Coupe;8;1;Automatic;Black;Brown;4;2;20.1;12.7;729900.0
+80607;2021;4;Bentley;Flying Spur;60107;1;Sedan;12;2;Manual;Silver;Black;4;4;20.1;10.4;361111.83
+93158;2016;8;McLaren;720S;18610;2;Coupe;6;1;Automatic;Red;Brown;4;2;17.8;10.0;450990.98
+15489;2023;1;Rolls-Royce;Phantom;15089;1;Sedan;8;1;Automatic;Grey;White;4;4;14.2;8.7;397258.68
+88045;2016;8;McLaren;GT;62692;3;Convertible;8;2;Manual;Blue;Black;2;2;14.7;10.9;248145.1
+61925;2018;1;Rolls-Royce;Phantom;52378;1;Sedan;8;1;Automatic;Green;Beige;4;4;17.6;13.2;354637.7
+69374;2016;7;Mercedes-Benz;G 63 AMG;50188;4;SUV;8;2;Manual;Blue;White;4;4;19.1;9.1;339120.47
+95710;2017;2;Ferrari;296 GTB;28757;2;Coupe;12;1;Automatic;White;Brown;2;2;13.8;12.8;453239.39
+90683;2022;3;Lamborghini;Huracan;36878;2;Coupe;12;1;Automatic;Red;Black;2;2;16.0;8.9;334938.29
+95206;2018;1;Rolls-Royce;Phantom;62477;1;Sedan;8;1;Automatic;White;White;4;4;14.5;10.2;449796.86
+30643;2019;5;Aston Martin;DBX;58395;4;SUV;12;2;Manual;Blue;White;4;4;17.2;13.2;217473.78
+91674;2019;2;Ferrari;296 GTB;40705;3;Convertible;8;1;Automatic;Green;Beige;4;2;15.6;10.4;468781.25
+11966;2016;2;Ferrari;296 GTB;53305;3;Convertible;12;1;Automatic;Blue;White;2;2;17.3;11.5;198187.08
+79255;2022;4;Bentley;Continental GT;36086;2;Coupe;8;1;Automatic;White;Brown;2;2;20.9;10.8;493779.17
+18279;2021;7;Mercedes-Benz;S 580;15036;1;Sedan;6;1;Automatic;White;Brown;4;4;20.7;13.2;493526.0
+17805;2019;5;Aston Martin;DBX;21185;4;SUV;8;2;Manual;White;Black;4;4;14.1;12.4;196542.15
+14673;2017;3;Lamborghini;Aventador;67708;2;Coupe;12;1;Automatic;Blue;Red;2;2;18.3;9.0;430925.83
+34930;2018;6;Porsche;Panamera;27573;1;Sedan;6;1;Automatic;Green;White;4;4;20.5;8.6;398525.19
+41711;2018;1;Rolls-Royce;Phantom;42202;3;Convertible;8;2;Manual;Blue;Red;2;2;15.0;12.2;457278.23
+88593;2020;1;Rolls-Royce;Phantom;51642;1;Sedan;8;2;Manual;Black;Brown;4;4;14.1;9.7;429496.82
+13942;2021;6;Porsche;Cayenne;48159;4;SUV;6;1;Automatic;Black;White;4;4;18.3;12.5;220794.81
+70808;2023;3;Lamborghini;Aventador;20009;2;Coupe;8;1;Automatic;White;Beige;4;2;13.9;8.7;371603.27
+52767;2023;3;Lamborghini;Huracan;10971;2;Coupe;8;1;Automatic;Green;Black;4;2;20.9;9.0;209503.82
+67741;2016;6;Porsche;Cayenne;6157;4;SUV;8;1;Automatic;Green;Beige;4;4;17.4;10.7;387907.76
+87458;2016;2;Ferrari;F8 Tributo;43227;2;Coupe;12;1;Automatic;Black;Brown;4;2;16.4;9.5;243640.38

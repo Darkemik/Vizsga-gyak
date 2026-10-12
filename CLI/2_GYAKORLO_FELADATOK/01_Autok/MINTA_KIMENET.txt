@@ -1,0 +1,38 @@
+A program kimenete (magyar Windows-on így néz ki):
+(A bekért érték: Ferrari)
+============================================================
+5. feladat: 6 db Rolls-Royce, Sedan karosszériájú, 8 hengeres autót adtak el.
+6. feladat: A legdrágább autó:
+21884
+	Gyártó: Aston Martin
+	Modell: Vantage (2020)
+	Karosszéria: Coupe, váltó: Automatic
+	Átlagfogyasztás: 16,40 l/100 km
+	Ár: 729900,00 CAD
+	Ára forintban: 181029798 Ft
+7. feladat: forma-1.txt kiírva, 11 sor.
+8. feladat (extra): Átlagár gyártónként:
+	Mercedes-Benz    4 db  433520,31 CAD
+	Bentley          5 db  393759,61 CAD
+	Rolls-Royce      8 db  385891,79 CAD
+	Aston Martin     5 db  352654,98 CAD
+	Porsche          5 db  350245,20 CAD
+	Lamborghini      5 db  340881,13 CAD
+	Ferrari          6 db  330119,68 CAD
+	McLaren          4 db  301600,42 CAD
+9. feladat (extra): Kérek egy gyártót: Ferrari
+	Ferrari: 6 db autó található.
+
+--- A(z) forma-1.txt fájl tartalma ---
+77096;Ferrari;Roma;2019;8724
+72359;Aston Martin;Vantage;2018;5398
+34402;Aston Martin;DB11;2017;15949
+22336;Ferrari;296 GTB;2017;63839
+21884;Aston Martin;Vantage;2020;22968
+95710;Ferrari;296 GTB;2017;28757
+30643;Aston Martin;DBX;2019;58395
+91674;Ferrari;296 GTB;2019;40705
+11966;Ferrari;296 GTB;2016;53305
+17805;Aston Martin;DBX;2019;21185
+87458;Ferrari;F8 Tributo;2016;43227
+

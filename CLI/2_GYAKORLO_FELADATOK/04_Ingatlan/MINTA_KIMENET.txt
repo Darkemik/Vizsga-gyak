@@ -1,0 +1,23 @@
+A program kimenete (magyar Windows-on így néz ki):
+============================================================
+3. feladat: Hirdetések száma: 43
+4. feladat: Átlagos alapterület: 113,63 m²
+5. feladat: A legolcsóbb kiemelt ház:
+	#23 Haz, Eger, 143 m², 4 szoba, 53 900 000 Ft (eladó: Bodnár Kft., +36 30 111 2233)
+6. feladat: 6 település: Budapest, Debrecen, Eger, Gödöllő, Szeged, Vác
+7. feladat: Statisztika kategóriánként:
+	Haz      16 db, átlagár:      98 893 750 Ft
+	Lakas    16 db, átlagár:      44 293 750 Ft
+	Sorhaz   11 db, átlagár:     100 945 455 Ft
+8. feladat: Legtöbb hirdetés: Bodnár Kft. (+36 30 111 2233), 16 db
+9. feladat: Van, a legolcsóbb: #21 Lakas, Budapest, 43 m², 1 szoba, 39 100 000 Ft (eladó: Otthon24 Zrt., +36 30 222 3344)
+10. feladat: dragak.txt elkészült, 6 ingatlan.
+
+--- A(z) dragak.txt fájl tartalma ---
+12;Budapest;63;1287301
+5;Budapest;192;1257291
+30;Budapest;71;1181690
+6;Budapest;83;1139759
+2;Budapest;48;1110416
+38;Budapest;76;1078947
+

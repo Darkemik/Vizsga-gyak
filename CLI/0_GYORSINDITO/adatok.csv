@@ -1,0 +1,14 @@
+Id;Nev;Kategoria;Ertek;Datum;Aktiv
+1;Alma;Gyumolcs;349.90;2026-03-14;1
+2;Banan;Gyumolcs;599.00;2026-04-02;1
+3;Repa;Zoldseg;249.50;2026-03-20;0
+4;Tej;Tejtermek;429.00;2026-05-11;1
+5;Sajt;Tejtermek;1899.00;2026-05-30;1
+6;Korte;Gyumolcs;699.00;2026-06-07;0
+7;Hagyma;Zoldseg;299.00;2026-06-15;1
+8;Joghurt;Tejtermek;189.90;2026-07-01;1
+9;Paprika;Zoldseg;899.00;2026-07-19;1
+10;Szilva;Gyumolcs;1899.00;2026-08-03;1
+11;Vaj;Tejtermek;1199.00;2026-08-22;0
+12;Burgonya;Zoldseg;349.90;2026-09-09;1
+13;Barack;Gyumolcs;799.00;2026-09-20;1

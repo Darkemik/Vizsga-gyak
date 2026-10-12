@@ -1,0 +1,27 @@
+A program kimenete (magyar Windows-on így néz ki):
+(A bekért érték: 126)
+============================================================
+3. feladat: Célba érkezett futók száma: 42
+4. feladat: A győztes: Tóth Máté (Dunakeszi Futók SE), ideje: 01:09:12
+5. feladat: Dobogósok:
+	1. hely:  110  Tóth Máté          Dunakeszi Futók SE   01:09:12
+	2. hely:  126  Fekete Réka        Dunakeszi Futók SE   01:14:40
+	3. hely:  125  Fekete Gergő       Váci Atlétika        01:18:55
+6. feladat: Átlagos idő: 01:53:14
+7. feladat: Kategóriák:
+	Felnott  19 fő, legjobb idő: 01:09:12
+	Junior   10 fő, legjobb idő: 01:21:11
+	Szenior  13 fő, legjobb idő: 01:21:40
+8. feladat: Kérek egy rajtszámot: 126
+	Fekete Réka: 2. helyezés, idő: 01:14:40
+9. feladat: Van 1:15:00-nál gyorsabb női futó.
+10. feladat: egyesuletek.txt elkészült.
+
+--- A(z) egyesuletek.txt fájl tartalma ---
+Nógrádi Szaladók;10
+Pesti Kocogók;8
+Váci Atlétika;8
+Dunakeszi Futók SE;6
+Gödöllői Lépés;6
+Szentendrei FC;4
+
