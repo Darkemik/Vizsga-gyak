@@ -15,7 +15,7 @@ namespace Gyorsindito
         public int Id { get; set; }               // egész szám     -> int.Parse
         public string Nev { get; set; }           // szöveg         -> nem kell átalakítani
         public string Kategoria { get; set; }
-        public double Ertek { get; set; }         // tört szám      -> double.Parse(..., InvariantCulture)
+        public double Ertek { get; set; }         // tört szám      -> double.Parse(x.Replace(',', '.'), InvariantCulture)
         public DateTime Datum { get; set; }       // dátum          -> DateTime.ParseExact
         public bool Aktiv { get; set; }           // 1/0 vagy igaz/hamis -> összehasonlítás
 
@@ -26,7 +26,7 @@ namespace Gyorsindito
             Id = int.Parse(m[0]);
             Nev = m[1];
             Kategoria = m[2];
-            Ertek = double.Parse(m[3], CultureInfo.InvariantCulture);   // a fájlban PONT a tizedesjel
+            Ertek = double.Parse(m[3].Replace(',', '.'), CultureInfo.InvariantCulture);   // vesszővel ÉS ponttal is jó
             Datum = DateTime.ParseExact(m[4], "yyyy-MM-dd", CultureInfo.InvariantCulture);
             Aktiv = m[5] == "1";
 

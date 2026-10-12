@@ -45,12 +45,13 @@ namespace AutoKonzol
             SzemelyekSzama = int.Parse(m[13]);
             Ajtok = int.Parse(m[14]);
 
-            // TÖRT SZÁMOK: a fájlban PONT a tizedesjel (pl. 13.1), a magyar Windows viszont
-            // VESSZŐT vár. Ezért mondjuk meg, hogy "nemzetközi" formátum: InvariantCulture.
-            // Ha ezt kihagyod, 13.1-ből 131 lesz, vagy hibát dob! (lásd 1_TECHNIKAK/17)
-            FogyasztasVarosban = double.Parse(m[15], CultureInfo.InvariantCulture);
-            FogyasztasAutopalyan = double.Parse(m[16], CultureInfo.InvariantCulture);
-            Ar = double.Parse(m[17], CultureInfo.InvariantCulture);
+            // TÖRT SZÁMOK: a vizsga carsData.csv-jében VESSZŐ a tizedesjel (13,59487179),
+            // más fájlokban PONT (13.5). Ez a sor MINDKETTŐT jól olvassa, bármilyen gépen:
+            // a vesszőt pontra cseréljük, és "nemzetközi" (pontos) formátumként olvassuk.
+            // (lásd 1_TECHNIKAK/17)
+            FogyasztasVarosban = double.Parse(m[15].Replace(',', '.'), CultureInfo.InvariantCulture);
+            FogyasztasAutopalyan = double.Parse(m[16].Replace(',', '.'), CultureInfo.InvariantCulture);
+            Ar = double.Parse(m[17].Replace(',', '.'), CultureInfo.InvariantCulture);
         }
 
         // Metódus az osztályban (1_TECHNIKAK/18): a 3. feladat szerinti átlagfogyasztás.

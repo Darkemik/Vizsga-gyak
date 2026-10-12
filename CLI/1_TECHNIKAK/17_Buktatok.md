@@ -11,11 +11,19 @@ A program a `bin\Debug\net8.0\` mappából fut, ott keresi a fájlt. Két megold
 
 ## 2. Tizedespont vs. tizedesvessző
 
-A fájlban gyakran **pont** van (`13.5`), a magyar Windows viszont **vesszőt** vár.
+A magyar Windows **vesszőt** vár (`13,5`). A vizsga `carsData.csv`-jében vessző van, ez magától működik, de más fájlokban **pont** is lehet (`13.5`), és az elszáll.
+
+**Ezt használd mindig, mindkettőre jó, bármilyen gépen:**
 
 ```csharp
-double.Parse("13.5")                                   // HIBA vagy 135!
-double.Parse("13.5", CultureInfo.InvariantCulture)    // JÓ: 13,5
+double.Parse(m[15].Replace(',', '.'), CultureInfo.InvariantCulture)
+```
+
+```csharp
+double.Parse("13.5")                                   // magyar gépen: HIBA (FormatException)
+double.Parse("13,5")                                   // magyar gépen: jó, angol gépen: 135 (!)
+double.Parse("13.5", CultureInfo.InvariantCulture)    // jó, de "13,5"-re 135 (!)
+double.Parse(s.Replace(',', '.'), CultureInfo.InvariantCulture)   // MINDIG jó
 ```
 
 Kell hozzá: `using System.Globalization;`

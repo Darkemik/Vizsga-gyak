@@ -1,38 +1,68 @@
 A program kimenete (magyar Windows-on így néz ki):
 (A bekért érték: Ferrari)
 ============================================================
-5. feladat: 6 db Rolls-Royce, Sedan karosszériájú, 8 hengeres autót adtak el.
+5. feladat: 1 db Rolls-Royce, Sedan karosszériájú, 8 hengeres autót adtak el.
 6. feladat: A legdrágább autó:
-21884
-	Gyártó: Aston Martin
-	Modell: Vantage (2020)
-	Karosszéria: Coupe, váltó: Automatic
-	Átlagfogyasztás: 16,40 l/100 km
-	Ár: 729900,00 CAD
-	Ára forintban: 181029798 Ft
-7. feladat: forma-1.txt kiírva, 11 sor.
+17
+	Gyártó: Lamborghini
+	Modell: Aventador (2019)
+	Karosszéria: Coupe, váltó: 7 Speed Automatic
+	Átlagfogyasztás: 20,90 l/100 km
+	Ár: 1699998,00 CAD
+	Ára forintban: 421633504 Ft
+7. feladat: forma-1.txt kiírva, 36 sor.
 8. feladat (extra): Átlagár gyártónként:
-	Mercedes-Benz    4 db  433520,31 CAD
-	Bentley          5 db  393759,61 CAD
-	Rolls-Royce      8 db  385891,79 CAD
-	Aston Martin     5 db  352654,98 CAD
-	Porsche          5 db  350245,20 CAD
-	Lamborghini      5 db  340881,13 CAD
-	Ferrari          6 db  330119,68 CAD
-	McLaren          4 db  301600,42 CAD
+	Lamborghini     44 db  519379,95 CAD
+	Rolls-Royce     29 db  504394,76 CAD
+	Ferrari         34 db  503580,06 CAD
+	Ford             1 db  499000,00 CAD
+	Maserati         1 db  399987,00 CAD
+	Mercedes-Benz    5 db  359133,80 CAD
+	Bentley         13 db  345488,38 CAD
+	Porsche         42 db  333043,29 CAD
+	Dodge            5 db  330399,00 CAD
+	McLaren         11 db  328667,55 CAD
+	Audi            10 db  274358,90 CAD
+	Aston Martin     2 db  249998,00 CAD
+	Chevrolet        1 db  249800,00 CAD
 9. feladat (extra): Kérek egy gyártót: Ferrari
-	Ferrari: 6 db autó található.
+	Ferrari: 34 db autó található.
 
 --- A(z) forma-1.txt fájl tartalma ---
-77096;Ferrari;Roma;2019;8724
-72359;Aston Martin;Vantage;2018;5398
-34402;Aston Martin;DB11;2017;15949
-22336;Ferrari;296 GTB;2017;63839
-21884;Aston Martin;Vantage;2020;22968
-95710;Ferrari;296 GTB;2017;28757
-30643;Aston Martin;DBX;2019;58395
-91674;Ferrari;296 GTB;2019;40705
-11966;Ferrari;296 GTB;2016;53305
-17805;Aston Martin;DBX;2019;21185
-87458;Ferrari;F8 Tributo;2016;43227
+14;Ferrari;F8;2022;327
+15;Ferrari;F8;2022;656
+18;Ferrari;F12tdf;2017;1077
+19;Ferrari;488;2019;1254
+20;Ferrari;812;2021;2227
+21;Ferrari;812;2021;2227
+22;Ferrari;F8;2021;2455
+29;Ferrari;812;2020;3305
+30;Ferrari;Portofino;2019;3800
+31;Ferrari;812;2018;4078
+33;Ferrari;488;2019;4711
+34;Ferrari;Portofino;2019;4737
+35;Ferrari;812;2021;5027
+36;Ferrari;812;2021;5027
+41;Ferrari;F8;2022;6008
+52;Ferrari;458;2014;7955
+64;Ferrari;FF;2015;16592
+65;Ferrari;458;2013;18462
+67;Ferrari;458;2012;24751
+73;Ferrari;Roma;2021;763
+89;Ferrari;Roma;2021;5257
+110;Aston Martin;Martin;2022;4703
+111;Aston Martin;Martin;2022;4703
+125;Ferrari;F8;2021;900
+142;Ferrari;F8;2022;6000
+151;Ferrari;Portofino;2019;9959
+154;Ferrari;488;2019;11710
+158;Ferrari;California;2017;12797
+159;Ferrari;California;2017;12797
+162;Ferrari;California;2017;14000
+163;Ferrari;California;2017;14000
+176;Ferrari;458;2015;20000
+177;Ferrari;458;2015;20000
+185;Ferrari;458;2013;35900
+187;Ferrari;458;2013;39000
+192;Ferrari;GTC4Lusso;2018;59472
 

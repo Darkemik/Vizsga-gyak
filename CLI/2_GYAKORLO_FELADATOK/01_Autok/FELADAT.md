@@ -1,7 +1,7 @@
 # 01 – Használt autók (a vizsgalap alapján)
 
 > Az 1–7. feladat a vizsgalapod szövege szerint. A 8–9. extra gyakorlás.
-> Az adatfájl nem az eredeti: a mezők ugyanazok, de az adatok kitaláltak, és az oszlopsorrend eltérhet. **Vizsgán mindig nézd meg a fájl első sorát!**
+> Az adatfájl a vizsga eredeti `carsData.csv`-je (198 autó). **Vizsgán mindig nézd meg a fájl első sorát!**
 
 **Adatfájl:** `Megoldas/carsData.csv` (UTF-8, pontosvesszővel elválasztva, az első sor a fejléc)
 
@@ -17,8 +17,8 @@
 | Valto | **önálló osztály**: ValtoID (egész), ValtoNev (szöveg) |
 | KulsoSzin, BelsoSzin | szöveg |
 | SzemelyekSzama, Ajtok | egész |
-| FogyasztasVarosban, FogyasztasAutopalyan | tört (a fájlban ponttal!) |
-| Ar | tört, kanadai dollár |
+| FogyasztasVarosban, FogyasztasAutopalyan | tört (a fájlban vesszővel: 13,59) |
+| Ar | tört, kanadai dollár (pl. 499000) |
 
 ## Feladatok
 

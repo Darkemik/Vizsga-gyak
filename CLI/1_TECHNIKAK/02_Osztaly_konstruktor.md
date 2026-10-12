@@ -27,7 +27,7 @@ internal class Auto
 
         Azonosito = int.Parse(m[0]);                                // egész szám
         Modell = m[1];                                              // szöveg
-        Ar = double.Parse(m[2], CultureInfo.InvariantCulture);     // tört szám, a fájlban PONTTAL
+        Ar = double.Parse(m[2].Replace(',', '.'), CultureInfo.InvariantCulture);   // tört szám (vessző vagy pont)
         Kiemelt = m[3] == "1";                                     // 1/0 -> true/false
     }
 }
@@ -38,8 +38,7 @@ internal class Auto
 | A fájlban | Típus | Átalakítás |
 |---|---|---|
 | `42` | `int` | `int.Parse(m[i])` |
-| `13.5` (pont) | `double` | `double.Parse(m[i], CultureInfo.InvariantCulture)` |
-| `13,5` (vessző) | `double` | `double.Parse(m[i])` (magyar Windows-on) |
+| `13,5` vagy `13.5` | `double` | `double.Parse(m[i].Replace(',', '.'), CultureInfo.InvariantCulture)` (mindkettőre jó) |
 | `szöveg` | `string` | `m[i]` |
 | `1` / `0` | `bool` | `m[i] == "1"` |
 | `igaz` / `hamis` | `bool` | `m[i] == "igaz"` |
