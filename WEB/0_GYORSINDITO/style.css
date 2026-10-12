@@ -1,0 +1,296 @@
+/* =====================================================================
+   WEB GYORSINDÍTÓ – style.css   (MOBILE-FIRST)
+   Alap szabályok = MOBIL. A fájl végén: @media 768 px (tablet), 1024 px (asztali).
+   A blokkok jele [A]...[H], mint az index.html-ben.
+   ===================================================================== */
+
+/* [A] ALAPOK: színek, reset */
+:root {
+    --sotet: #0f172a;
+    --kiemelo: #d97706;
+    --halvany: #fef3c7;
+    --szurke: #6b7280;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #1f2937;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* [B] NAVIGÁCIÓ – mobil: logó + hamburger, a menü rejtve */
+.fejlec {
+    background: var(--sotet);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.logo-jel {                          /* egyszerű "logó": betű egy keretben */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border: 3px solid var(--kiemelo);
+    color: var(--kiemelo);
+}
+
+.kiemelt {
+    color: var(--kiemelo);
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menu {
+    list-style: none;
+    width: 100%;
+    display: none;                   /* mobilon rejtve */
+}
+
+.menu.nyitva {
+    display: block;                  /* hamburgerre nyílik */
+}
+
+.menu a {
+    display: block;
+    padding: 12px 4px;
+    color: #fff;
+    text-decoration: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.menu a.aktiv,
+.menu a:hover {
+    color: var(--kiemelo);
+}
+
+
+/* [C] HERO – mobil: kisebb betű */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.25)), url("kepek/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    color: #fff;
+}
+
+.hero-tartalom {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    line-height: 1.1;
+    margin-bottom: 14px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+}
+
+.gomb {
+    display: inline-block;
+    background: var(--kiemelo);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+/* [D] INFO KÁRTYÁK – árnyék, középre igazítás */
+.info {
+    display: grid;
+    grid-template-columns: 1fr;      /* [E] mobil: egymás alatt */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.info-kartya {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    padding: 22px;
+    text-align: center;
+}
+
+.ikon-kor {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: var(--halvany);
+    color: var(--kiemelo);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 12px;
+}
+
+.info-kartya p {
+    color: var(--szurke);
+}
+
+
+/* [H] SZŰRŐ */
+.termekek {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px 40px;
+}
+
+.oldal-cim {
+    font-size: 1.8rem;
+    margin-bottom: 14px;
+}
+
+.szuro {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.szuro-gomb {
+    padding: 8px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.szuro-gomb.aktiv,
+.szuro-gomb:hover {
+    border-color: var(--kiemelo);
+    color: var(--kiemelo);
+}
+
+
+/* [G] KÁRTYÁK (JS-ből) – egységes méret */
+.kartya-racs {
+    display: grid;
+    grid-template-columns: 1fr;      /* [E] mobil: 1 oszlop */
+    gap: 20px;
+}
+
+.kartya {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.kartya-kep {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.kartya-adatok {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px 14px 14px;
+}
+
+.ar {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.kartya-gomb {
+    margin-top: auto;                /* gomb mindig alul */
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background: var(--kiemelo);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* [G] NEM ELÉRHETŐ */
+.nem-elerheto .kartya-kep {
+    filter: grayscale(100%);
+}
+
+.kartya-gomb:disabled {
+    background: #d1d5db;
+    color: #374151;
+    cursor: not-allowed;
+}
+
+
+/* =====================================================================
+   [E] TABLET: 768 px-től
+   ===================================================================== */
+@media (min-width: 768px) {
+    .hamburger { display: none; }
+    .menu { display: flex; width: auto; gap: 28px; }
+    .menu a { border-top: none; padding: 6px 0; }
+
+    .hero h1 { font-size: 3.2rem; }
+
+    .info { grid-template-columns: repeat(2, 1fr); }
+    .kartya-racs { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* =====================================================================
+   [E] ASZTALI: 1024 px-től
+   ===================================================================== */
+@media (min-width: 1024px) {
+    .hero h1 { font-size: 4rem; }
+
+    .info { grid-template-columns: repeat(3, 1fr); }
+    .kartya-racs { grid-template-columns: repeat(4, 1fr); }   /* ha 3 kell: repeat(3, 1fr) */
+}

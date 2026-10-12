@@ -1,0 +1,432 @@
+/* =====================================================================
+   ArtGallery – stíluslap (mindkét oldal ezt használja)
+
+   MOBILE-FIRST: először a MOBIL nézetet írjuk meg (ezek az "alap" szabályok),
+   utána a nagyobb képernyőkre csak a VÁLTOZÁSOKAT, @media (min-width: ...) blokkokban:
+       alap            -> mobil   (0 - 767 px)
+       min-width 768   -> tablet  (768 - 1023 px)
+       min-width 1024  -> asztali (1024 px-től)
+   ===================================================================== */
+
+
+/* ---------------------------------------------------------------------
+   0. ALAPOK: színek (változók), alaphelyzetbe állítás
+   --------------------------------------------------------------------- */
+:root {
+    --sotet: #0b1220;       /* navigáció háttér */
+    --arany: #c8963e;       /* kiemelő szín (kezdőlap) */
+    --narancs: #c4661f;     /* kiemelő szín (kiállítások) */
+    --halvany: #f6efe4;     /* ikon körök háttere */
+    --szoveg: #1f2430;
+    --szurke: #6b7280;
+}
+
+* {
+    box-sizing: border-box;  /* a padding a megadott szélességen BELÜL legyen */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: var(--szoveg);
+    background: #fff;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;         /* kép soha ne lógjon ki a dobozából */
+    display: block;
+}
+
+
+/* ---------------------------------------------------------------------
+   1. NAVIGÁCIÓS SÁV – mobil (alap)
+   --------------------------------------------------------------------- */
+.fejlec {
+    background: var(--sotet);
+    position: sticky;        /* görgetéskor fent marad */
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;                 /* mobilon a menü új sorba kerülhet */
+    align-items: center;
+    justify-content: space-between;  /* logó balra, hamburger jobbra */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+/* A logo.png-n NAGY átlátszó szél van (1536x1024-es kép, a logó a közepén).
+   Ezért háttérképként tesszük be, kicsinyítve és a logóra igazítva:
+   így a doboz csak a logót mutatja. A számokat kipróbálással állítottuk be.
+   A link szövege ("ArtGallery") rejtve marad (font-size: 0).
+   EGYSZERŰBB MÓD: a logót Paintben kivágod (Kijelölés -> Kivágás), elmented,
+   és sima <img src="images/logo_kicsi.png" height="44">-ként teszed be. */
+.logo {
+    display: block;
+    width: 186px;
+    height: 44px;
+    background-image: url("images/logo.png");
+    background-size: 420px auto;         /* a teljes képet 420 px szélesre kicsinyítjük */
+    background-position: 53.4% 48.3%;    /* a logó helye a képen belül */
+    background-repeat: no-repeat;
+    font-size: 0;                        /* a link szövege ne látszódjon */
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.menu {
+    list-style: none;        /* nincs pötty a listaelemek előtt */
+    width: 100%;             /* mobilon teljes szélességű, a logó alatt */
+    display: none;           /* mobilon ALAPBÓL REJTVE */
+}
+
+.menu.nyitva {
+    display: block;          /* a hamburgerre kattintva (script.js) megjelenik */
+}
+
+.menu li {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 4px;
+    color: #fff;
+    text-decoration: none;   /* nincs aláhúzás */
+    font-size: 1.1rem;
+}
+
+.menu a img {
+    width: 26px;             /* ikon a menüpont előtt (csak mobilon) */
+}
+
+.menu a.aktiv,
+.menu a:hover {
+    color: var(--arany);
+}
+
+
+/* ---------------------------------------------------------------------
+   2. HERO SZEKCIÓ – mobil (alap)
+   --------------------------------------------------------------------- */
+.hero {
+    /* sötétítő színátmenet A KÉP FÖLÖTT, hogy a fehér szöveg olvasható legyen */
+    background-image: linear-gradient(rgba(5, 10, 20, 0.75), rgba(5, 10, 20, 0.35)),
+                      url("images/hero.png");
+    background-size: cover;          /* kitölti a területet, arányosan */
+    background-position: center;
+    min-height: 70vh;                /* a képernyő magasságának 70%-a */
+    display: flex;
+    align-items: center;             /* függőlegesen középre */
+    padding: 40px 20px;
+}
+
+.hero-tartalom {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.2rem;               /* MOBILON KISEBB betűméret (a feladat kéri) */
+    line-height: 1.1;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    max-width: 520px;
+    margin-bottom: 24px;
+}
+
+.gomb {
+    display: inline-block;
+    background: var(--arany);
+    color: #fff;
+    padding: 14px 26px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.gomb:hover {
+    background: #b07f2c;
+}
+
+
+/* ---------------------------------------------------------------------
+   3. INFORMÁCIÓS KÁRTYÁK – mobil (alap): egymás alatt, ikon balra
+   --------------------------------------------------------------------- */
+.info {
+    display: grid;
+    grid-template-columns: 1fr;      /* MOBIL: 1 oszlop = egymás alatt */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.info-kartya {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);   /* ÁRNYÉK: x y elmosás szín */
+    padding: 22px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.ikon-kor {
+    flex-shrink: 0;                  /* a kör ne nyomódjon össze */
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;              /* 50% = kör */
+    background: var(--halvany);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ikon-kor img {
+    width: 44px;
+}
+
+.info-kartya h2 {
+    font-size: 1.25rem;
+    margin-bottom: 6px;
+}
+
+.info-kartya p {
+    color: var(--szurke);
+}
+
+
+/* ---------------------------------------------------------------------
+   4. KIÁLLÍTÁSOK OLDAL – mobil (alap)
+   --------------------------------------------------------------------- */
+.kiallitasok {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 20px 40px;
+}
+
+.oldal-cim {
+    display: inline-block;
+    color: var(--narancs);
+    font-size: 2rem;
+    border-bottom: 4px solid var(--narancs);
+    margin-bottom: 20px;
+}
+
+/* Szűrőgombok */
+.szuro {
+    display: flex;
+    flex-wrap: wrap;                 /* ha nem fér ki egy sorba, tördel */
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.szuro-gomb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.szuro-gomb img {
+    width: 22px;
+}
+
+.szuro-gomb:hover,
+.szuro-gomb.aktiv {                  /* az "aktiv" osztályt a galeria.js teszi rá */
+    border-color: var(--narancs);
+    color: var(--narancs);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* A műalkotás-kártyák rácsa */
+.mualkotasok {
+    display: grid;
+    grid-template-columns: 1fr;      /* MOBIL: 1 oszlop */
+    gap: 20px;
+}
+
+/* Egy kártya: függőleges flex, hogy a gomb mindig ALUL legyen -> egységes méret */
+.mu-kartya {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;                /* a kép sarka is lekerekített legyen */
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.mu-kep {
+    width: 100%;
+    height: 160px;                   /* minden kép UGYANAKKORA */
+    object-fit: cover;               /* kitölti, arányosan levágva */
+}
+
+.mu-adatok {
+    flex: 1;                         /* kitölti a kártya maradék magasságát */
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px 14px 14px;
+}
+
+.mu-adatok h3 {
+    color: var(--narancs);
+    font-size: 1.1rem;
+}
+
+.mu-kategoria {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mu-kategoria img {
+    width: 20px;
+}
+
+.mu-ar {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.erdekel {
+    margin-top: auto;                /* a gomb a kártya ALJÁRA kerül */
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background: var(--narancs);
+    color: #fff;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+
+.erdekel:hover {
+    background: #a9531a;
+}
+
+/* NEM ELÉRHETŐ alkotás: a galeria.js "nem-elerheto" osztályt ad a kártyának */
+.nem-elerheto .mu-kep {
+    filter: grayscale(100%);         /* SZÜRKEÁRNYALATOS kép */
+}
+
+.nem-elerheto h3 {
+    color: var(--szurke);
+}
+
+.erdekel:disabled {                  /* a "disabled" gomb (inaktív) kinézete */
+    background: #d1d5db;
+    color: #374151;
+    cursor: not-allowed;
+}
+
+
+/* =====================================================================
+   TABLET: 768 px-től
+   ===================================================================== */
+@media (min-width: 768px) {
+
+    /* Navigáció: hamburger el, menü vízszintesen */
+    .hamburger {
+        display: none;
+    }
+
+    .menu {
+        display: flex;               /* vízszintes sor */
+        width: auto;
+        gap: 32px;
+    }
+
+    .menu li {
+        border: none;
+    }
+
+    .menu a {
+        padding: 8px 0;
+        border-bottom: 3px solid transparent;
+    }
+
+    .menu a img {
+        display: none;               /* asztali menüben nincs ikon */
+    }
+
+    .menu a.aktiv {
+        border-bottom-color: var(--arany);   /* aktív menüpont aláhúzása */
+    }
+
+    /* Hero: nagyobb betű */
+    .hero h1 {
+        font-size: 3.2rem;
+    }
+
+    /* Info kártyák: 2 oszlop, tartalom középre */
+    .info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .info-kartya {
+        flex-direction: column;      /* ikon fölül */
+        text-align: center;          /* KÖZÉPRE igazítva */
+    }
+
+    /* Műalkotások: 2 oszlop */
+    .mualkotasok {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* =====================================================================
+   ASZTALI: 1024 px-től
+   ===================================================================== */
+@media (min-width: 1024px) {
+
+    .hero {
+        min-height: 80vh;
+    }
+
+    .hero h1 {
+        font-size: 4.2rem;
+    }
+
+    .hero p {
+        font-size: 1.4rem;
+    }
+
+    /* Info kártyák: 3 egymás mellett, kicsit "rálógnak" a hero aljára */
+    .info {
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: -70px;
+        position: relative;
+    }
+
+    /* Műalkotások: 4 oszlop */
+    .mualkotasok {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

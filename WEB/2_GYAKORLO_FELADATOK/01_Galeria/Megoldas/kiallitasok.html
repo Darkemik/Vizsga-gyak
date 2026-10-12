@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtGallery – Kiállítások</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ugyanaz a navigáció, mint az index.html-ben, csak itt a "Kiállítások" az aktív -->
+    <header class="fejlec">
+        <nav class="navbar">
+            <a href="index.html" class="logo" title="ArtGallery – kezdőlap">ArtGallery</a>
+            <button class="hamburger" id="hamburger" aria-label="Menü megnyitása">☰</button>
+            <ul class="menu" id="menu">
+                <li><a href="index.html"><img src="images/icons/main.png" alt="">Kezdőlap</a></li>
+                <li><a href="kiallitasok.html" class="aktiv"><img src="images/icons/gallery.png" alt="">Kiállítások</a></li>
+                <li><a href="#"><img src="images/icons/people.png" alt="">Művészek</a></li>
+                <li><a href="#"><img src="images/icons/mail.png" alt="">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="kiallitasok">
+        <h1 class="oldal-cim">Kiállítások</h1>
+
+        <!-- =================================================================
+             4. KATEGÓRIASZŰRŐ: minden gomb data-kategoria attribútumában a kategória neve.
+                A galeria.js ezt olvassa ki kattintáskor. A neveknek PONTOSAN egyezniük
+                kell a JSON "category" értékeivel!
+             ================================================================= -->
+        <div class="szuro" id="szuro">
+            <button class="szuro-gomb aktiv" data-kategoria="Összes"><img src="images/icons/main.png" alt="">Összes</button>
+            <button class="szuro-gomb" data-kategoria="Festmény"><img src="images/icons/painting.png" alt="">Festmény</button>
+            <button class="szuro-gomb" data-kategoria="Szobor"><img src="images/icons/statue.png" alt="">Szobor</button>
+            <button class="szuro-gomb" data-kategoria="Fotó"><img src="images/icons/photograph.png" alt="">Fotó</button>
+            <button class="szuro-gomb" data-kategoria="Digitális művészet"><img src="images/icons/digital.png" alt="">Digitális művészet</button>
+        </div>
+
+        <!-- =================================================================
+             2. ide kerülnek a kártyák: ÜRES, a galeria.js tölti fel
+             ================================================================= -->
+        <div class="mualkotasok" id="mualkotasok"></div>
+    </main>
+
+    <!-- SORREND SZÁMÍT: 1. menü, 2. adatok (artworks.js), 3. ami az adatokat használja (galeria.js) -->
+    <script src="script.js"></script>
+    <script src="artworks.js"></script>
+    <script src="galeria.js"></script>
+</body>
+</html>

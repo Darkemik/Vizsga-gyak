@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- =====================================================================
+     WEB GYORSINDÍTÓ: egy oldalon minden, ami a vizsgán kellhet.
+     A blokkok jele [A]...[H], ugyanez a jel van a style.css-ben és a script.js-ben is.
+     Vizsgán: másold ki a kellő blokkot, és írd át a szövegeket / mezőneveket.
+     ===================================================================== -->
+<html lang="hu">
+<head>
+    <!-- [A] HTML VÁZ: ez a két meta KÖTELEZŐ (ékezetek + mobil) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyorsindító</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- [B] NAVIGÁCIÓ: logó + név balra, menü jobbra, mobilon hamburger -->
+    <header class="fejlec">
+        <nav class="navbar">
+            <a href="#" class="logo"><span class="logo-jel">M</span>Mini<span class="kiemelt">Shop</span></a>
+            <button class="hamburger" id="hamburger" aria-label="Menü">☰</button>
+            <ul class="menu" id="menu">
+                <li><a href="#" class="aktiv">Kezdőlap</a></li>
+                <li><a href="#termekek">Termékek</a></li>
+                <li><a href="#">Rólunk</a></li>
+                <li><a href="#">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- [C] HERO: háttérkép + cím + alcím + gomb -->
+        <section class="hero">
+            <div class="hero-tartalom">
+                <h1>Ez itt a nagy cím</h1>
+                <p>Ez az alcím, egy-két mondat a hero szekcióban.</p>
+                <a href="#termekek" class="gomb">Gomb szövege <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
+
+        <!-- [D] 3 INFORMÁCIÓS KÁRTYA: árnyékolt, középre igazított -->
+        <section class="info">
+            <div class="info-kartya">
+                <div class="ikon-kor">★</div>
+                <h2>Első kártya</h2>
+                <p>Rövid leírás az első kártyához.</p>
+            </div>
+            <div class="info-kartya">
+                <div class="ikon-kor">✔</div>
+                <h2>Második kártya</h2>
+                <p>Rövid leírás a második kártyához.</p>
+            </div>
+            <div class="info-kartya">
+                <div class="ikon-kor">✉</div>
+                <h2>Harmadik kártya</h2>
+                <p>Rövid leírás a harmadik kártyához.</p>
+            </div>
+        </section>
+
+        <!-- [H] SZŰRŐGOMBOK: a data-kategoria BETŰRE egyezzen az adatok "kategoria" mezőjével -->
+        <section class="termekek" id="termekek">
+            <h2 class="oldal-cim">Termékek</h2>
+            <div class="szuro">
+                <button class="szuro-gomb aktiv" data-kategoria="Összes">Összes</button>
+                <button class="szuro-gomb" data-kategoria="Könyv">Könyv</button>
+                <button class="szuro-gomb" data-kategoria="Játék">Játék</button>
+                <button class="szuro-gomb" data-kategoria="Zene">Zene</button>
+            </div>
+
+            <!-- [G] IDE KERÜLNEK A KÁRTYÁK: üres, a script.js tölti fel -->
+            <div class="kartya-racs" id="kartyaRacs"></div>
+        </section>
+    </main>
+
+    <!-- [F] ADATOK, utána a JS: a SORREND számít! -->
+    <script src="adatok.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

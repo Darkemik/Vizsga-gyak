@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Városi fények",
+    "artist": "Kovács Anna",
+    "year": 2022,
+    "category": "Festmény",
+    "price": "120 000 Ft",
+    "image": "images/varosi-fenyek.jpg",
+    "available": true
+  },
+  {
+    "id": 2,
+    "title": "Csendes forma",
+    "artist": "Nagy Péter",
+    "year": 2021,
+    "category": "Szobor",
+    "price": "180 000 Ft",
+    "image": "images/csendes-forma.jpg",
+    "available": false
+  },
+  {
+    "id": 3,
+    "title": "Erdő mélyén",
+    "artist": "Szabó Lilla",
+    "year": 2023,
+    "category": "Festmény",
+    "price": "95 000 Ft",
+    "image": "images/erdo-melyen.jpg",
+    "available": true
+  },
+  {
+    "id": 4,
+    "title": "Gondolatok",
+    "artist": "Tóth Bence",
+    "year": 2020,
+    "category": "Digitális művészet",
+    "price": "150 000 Ft",
+    "image": "images/gondolatok.jpg",
+    "available": true
+  },
+  {
+    "id": 5,
+    "title": "Lépések",
+    "artist": "Molnár Zoltán",
+    "year": 2019,
+    "category": "Fotó",
+    "price": "60 000 Ft",
+    "image": "images/lepesek.jpg",
+    "available": true
+  },
+  {
+    "id": 6,
+    "title": "Absztrakt harmónia",
+    "artist": "Varga Eszter",
+    "year": 2021,
+    "category": "Festmény",
+    "price": "130 000 Ft",
+    "image": "images/absztrakt-harmonia.jpg",
+    "available": true
+  },
+  {
+    "id": 7,
+    "title": "Emelkedés",
+    "artist": "Kiss Gábor",
+    "year": 2022,
+    "category": "Szobor",
+    "price": "210 000 Ft",
+    "image": "images/emelkedes.jpg",
+    "available": true
+  },
+  {
+    "id": 8,
+    "title": "Városi csend",
+    "artist": "Lakatos Mária",
+    "year": 2023,
+    "category": "Fotó",
+    "price": "70 000 Ft",
+    "image": "images/varosi-csend.jpg",
+    "available": false
+  },
+  {
+    "id": 9,
+    "title": "Színek tánca",
+    "artist": "Horváth Dóra",
+    "year": 2020,
+    "category": "Digitális művészet",
+    "price": "110 000 Ft",
+    "image": "images/szinek-tanca.jpg",
+    "available": true
+  },
+  {
+    "id": 10,
+    "title": "Idő rétegei",
+    "artist": "Farkas Dániel",
+    "year": 2018,
+    "category": "Festmény",
+    "price": "90 000 Ft",
+    "image": "images/ido-retegei.jpg",
+    "available": true
+  },
+  {
+    "id": 11,
+    "title": "Kő és fény",
+    "artist": "Dévényi Ádám",
+    "year": 2021,
+    "category": "Szobor",
+    "price": "160 000 Ft",
+    "image": "images/ko-es-feny.jpg",
+    "available": true
+  },
+  {
+    "id": 12,
+    "title": "Horizont",
+    "artist": "Péterfi Nóra",
+    "year": 2022,
+    "category": "Fotó",
+    "price": "80 000 Ft",
+    "image": "images/horizont.jpg",
+    "available": true
+  }
+]

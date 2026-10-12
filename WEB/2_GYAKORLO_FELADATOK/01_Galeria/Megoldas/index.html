@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <!-- Ékezetek miatt KÖTELEZŐ: UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Reszponzivitás miatt KÖTELEZŐ: nélküle a mobil "kicsinyített asztali" oldalt mutat -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtGallery – Kezdőlap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- =====================================================================
+         1. NAVIGÁCIÓS SÁV: balra a logó, jobbra a menü; mobilon hamburger gomb
+         ===================================================================== -->
+    <header class="fejlec">
+        <nav class="navbar">
+            <!-- A logó (benne a név: ArtGallery). A képet a CSS teszi be (lásd style.css: .logo) -->
+            <a href="index.html" class="logo" title="ArtGallery – kezdőlap">ArtGallery</a>
+
+            <!-- Hamburger gomb: CSAK mobilon látszik (CSS), kattintásra nyitja a menüt (script.js) -->
+            <button class="hamburger" id="hamburger" aria-label="Menü megnyitása">☰</button>
+
+            <!-- A menü. Az ikonok csak mobilon látszanak (CSS). -->
+            <ul class="menu" id="menu">
+                <li><a href="index.html" class="aktiv"><img src="images/icons/main.png" alt="">Kezdőlap</a></li>
+                <li><a href="kiallitasok.html"><img src="images/icons/gallery.png" alt="">Kiállítások</a></li>
+                <li><a href="#"><img src="images/icons/people.png" alt="">Művészek</a></li>
+                <li><a href="#"><img src="images/icons/mail.png" alt="">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- =================================================================
+             2. HERO SZEKCIÓ: háttérkép + cím + alcím + gomb
+             ================================================================= -->
+        <section class="hero">
+            <div class="hero-tartalom">
+                <h1>Fedezd fel a művészet világát!</h1>
+                <p>Kortárs alkotások, különleges kiállítások, inspiráló terek.</p>
+                <a href="kiallitasok.html" class="gomb">Kiállítások megtekintése <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
+
+        <!-- =================================================================
+             3. HÁROM INFORMÁCIÓS KÁRTYA (árnyékolt, középre igazított)
+             ================================================================= -->
+        <section class="info">
+            <div class="info-kartya">
+                <div class="ikon-kor"><img src="images/icons/gallery.png" alt=""></div>
+                <div>
+                    <h2>Modern kiállítások</h2>
+                    <p>Fedezd fel legújabb időszaki és állandó kiállításainkat.</p>
+                </div>
+            </div>
+            <div class="info-kartya">
+                <div class="ikon-kor"><img src="images/icons/people.png" alt=""></div>
+                <div>
+                    <h2>Kortárs művészek</h2>
+                    <p>Ismerd meg a mai kortárs művészet kiemelkedő alkotóit.</p>
+                </div>
+            </div>
+            <div class="info-kartya">
+                <div class="ikon-kor"><img src="images/icons/digital.png" alt=""></div>
+                <div>
+                    <h2>Online galéria</h2>
+                    <p>Böngéssz és vásárolj műalkotásokat kényelmesen online.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- A JS a body VÉGÉRE kerül, hogy addigra az összes HTML-elem létezzen -->
+    <script src="script.js"></script>
+</body>
+</html>
